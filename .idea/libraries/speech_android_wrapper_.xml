@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="speech-android-wrapper-">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/speech-android-wrapper/jars/libs/commons-io-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/speech-android-wrapper/jars/libs/java_websocket.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/speech-android-wrapper/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/speech-android-wrapper/jars/libs/jna.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/speech-android-wrapper/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
