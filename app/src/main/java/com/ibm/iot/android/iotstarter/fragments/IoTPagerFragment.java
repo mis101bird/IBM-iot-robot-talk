@@ -33,6 +33,7 @@ import android.widget.Toast;
 import com.ibm.iot.android.iotstarter.IoTStarterApplication;
 import com.ibm.iot.android.iotstarter.R;
 import com.ibm.iot.android.iotstarter.iot.IoTClient;
+import com.ibm.iot.android.iotstarter.speech.util.JsonParser;
 import com.ibm.iot.android.iotstarter.utils.Constants;
 import com.ibm.iot.android.iotstarter.utils.MessageFactory;
 import com.ibm.iot.android.iotstarter.utils.MyIoTActionListener;
@@ -40,6 +41,15 @@ import com.ibm.iot.android.iotstarter.views.DrawingView;
 import com.ibm.watson.developer_cloud.android.speech_to_text.v1.ISpeechDelegate;
 import com.ibm.watson.developer_cloud.android.speech_to_text.v1.SpeechToText;
 import com.ibm.watson.developer_cloud.android.speech_to_text.v1.dto.SpeechConfiguration;
+import com.iflytek.cloud.ErrorCode;
+import com.iflytek.cloud.RecognizerListener;
+import com.iflytek.cloud.RecognizerResult;
+import com.iflytek.cloud.SpeechConstant;
+import com.iflytek.cloud.SpeechError;
+import com.iflytek.cloud.SpeechEvent;
+import com.iflytek.cloud.SpeechRecognizer;
+import com.iflytek.cloud.SpeechUtility;
+
 
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.json.JSONArray;
@@ -61,10 +71,44 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
     private DrawingView drawingView;
     private Handler mHandler = null;
     private static String mRecognitionResults = "";
+    private SpeechRecognizer mIat;
     private enum ConnectionState {
         IDLE, CONNECTING, CONNECTED
     }
     static ConnectionState mState = ConnectionState.IDLE;
+    private RecognizerListener mRecoListener = new RecognizerListener(){
+
+        public void onResult(RecognizerResult results,boolean isLast) {
+            Log.d(TAG, "speech result:"+ results.getResultString());
+            printResult(results);
+            if (isLast) {
+                Log.d(TAG, "錄音結果");
+            }
+        }
+        public void onError(SpeechError error) {
+            Log.d(TAG, "error:" + error.getPlainDescription(true));
+            mState = ConnectionState.IDLE;
+            displayStatus(error.getPlainDescription(true));
+        }
+
+        public void onBeginOfSpeech() {
+            Log.d(TAG, "onOpen");
+            mState = ConnectionState.CONNECTED;
+            displayButton("Stop recording");
+        }
+        public void onVolumeChanged(int volume, byte[] data){}
+
+        public void onEndOfSpeech() {
+            mState = ConnectionState.IDLE;
+            displayButton("Audio");
+        }
+        public void onEvent(int eventType, int arg1, int arg2, Bundle obj){
+            if (SpeechEvent.EVENT_SESSION_ID == eventType) {
+                		String sid = obj.getString(SpeechEvent.KEY_EVENT_SESSION_ID);
+                		Log.d(TAG, "session id =" + sid);
+            }
+        }
+    };
 
     /**************************************************************************
      * Fragment functions for establishing the fragment
@@ -78,6 +122,7 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         mHandler = new Handler();
+        SpeechUtility.createUtility(this.getActivity(), SpeechConstant.APPID+"=572bfac5");
         return inflater.inflate(R.layout.iot, container, false);
 
     }
@@ -88,7 +133,6 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
     @Override
     public void onResume() {
         Log.d(TAG, ".onResume() entered");
-
         super.onResume();
         app = (IoTStarterApplication) getActivity().getApplication();
         app.setCurrentRunningActivity(TAG);
@@ -138,10 +182,16 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
         updateViewStrings();
 
         Log.d("STT", "setup STT");
+        mIat=SpeechRecognizer.createRecognizer(context,null);
+        mIat.setParameter(SpeechConstant.DOMAIN,"iat");
+        mIat.setParameter(SpeechConstant.LANGUAGE,"zh_cn");
+        mIat.setParameter(SpeechConstant.ACCENT, "mandarin");
+        mIat.setParameter(SpeechConstant.NET_TIMEOUT, "1000");
+        /*
         if (initSTT() == false) {
             Toast.makeText(this.getActivity(), "STT Error: no authentication", Toast.LENGTH_LONG).show();
         }
-
+        */
         // setup button listeners
         Button button = (Button) getActivity().findViewById(R.id.sendText);
         button.setOnClickListener(new View.OnClickListener() {
@@ -221,19 +271,16 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
                 displayButton("CONNECTING Audio");
                 Log.d("STT", "onClickRecord: IDLE -> CONNECTING");
                 mRecognitionResults = "";
-                // start recognition
-                new AsyncTask<Void, Void, Void>() {
-                    @Override
-                    protected Void doInBackground(Void... none) {
-                        SpeechToText.sharedInstance().recognize(); //開始轉錄
-                        return null;
-                    }
-                }.execute();
+                int ret = mIat.startListening(mRecoListener);
+                if (ret != ErrorCode.SUCCESS) {
+                    Log.d(TAG, "錄音Error");
+                }
 
             } else if (mState == ConnectionState.CONNECTED) {
                 mState = ConnectionState.IDLE;
                 Log.d("STT", "onClickRecord: CONNECTED -> IDLE");
-                SpeechToText.sharedInstance().stopRecognition();
+                mIat.stopListening();
+                displayButton("Audio");
 
             }
 
@@ -476,5 +523,42 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
         }.start();
     }
 
+    private void printResult(RecognizerResult results) {
+        String text = JsonParser.parseIatResult(results.getResultString());
+        Log.d(TAG,text);
+        String sn = "null"; //讀取sn字段
+        try {
+            JSONObject resultJson = new JSONObject(results.getResultString());
+            sn = resultJson.optString("sn");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        if(!text.equals("。")){
+            displayStatus("get "+text);
+            //send MQTT message
+            try {
+                // create ActionListener to handle message published results
+                MyIoTActionListener listener = new MyIoTActionListener(context, Constants.ActionStateStatus.PUBLISH);
+                IoTClient iotClient = IoTClient.getInstance(context);
+                String messageData = MessageFactory.getTextMessage(mRecognitionResults);
+                Log.d("text","message: "+messageData);
+                iotClient.publishEvent(Constants.TEXT_EVENT, "string", text, 0, false, listener);
+
+                int count = app.getPublishCount();
+                app.setPublishCount(++count);
+
+                String runningActivity = app.getCurrentRunningActivity();
+                if (runningActivity != null && runningActivity.equals(IoTPagerFragment.class.getName())) {
+                    Intent actionIntent = new Intent(Constants.APP_ID + Constants.INTENT_IOT);
+                    actionIntent.putExtra(Constants.INTENT_DATA, Constants.INTENT_DATA_PUBLISHED);
+                    context.sendBroadcast(actionIntent);
+                }
+            } catch (MqttException e) {
+                // Publish failed
+            }
+        }
+
+
+    }
 
 }

@@ -105,5 +105,7 @@
     <orderEntry type="library" exported="" name="org.eclipse.paho.client.mqttv3" level="project" />
     <orderEntry type="library" exported="" name="nv-websocket-client-1.21" level="project" />
     <orderEntry type="library" exported="" name="java-sdk-2.8.0" level="project" />
+    <orderEntry type="library" exported="" name="Sunflower" level="project" />
+    <orderEntry type="library" exported="" name="Msc" level="project" />
   </component>
 </module>

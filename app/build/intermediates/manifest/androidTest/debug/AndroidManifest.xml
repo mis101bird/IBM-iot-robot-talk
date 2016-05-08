@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ibm.iot.android.iotstarter2.test">
+    package="com.ibm.iot.android.iotstarter3.test">
 
     <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="21" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.ibm.iot.android.iotstarter2"
+                     android:targetPackage="com.ibm.iot.android.iotstarter3"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.ibm.iot.android.iotstarter2"/>
+                     android:label="Tests for com.ibm.iot.android.iotstarter3"/>
 </manifest>
