@@ -24,6 +24,8 @@ import com.ibm.iot.android.iotstarter.activities.ProfilesActivity;
 import com.ibm.iot.android.iotstarter.fragments.IoTPagerFragment;
 import com.ibm.iot.android.iotstarter.fragments.LogPagerFragment;
 import com.ibm.iot.android.iotstarter.fragments.LoginPagerFragment;
+import com.ibm.watson.developer_cloud.android.speech_to_text.v1.SpeechToText;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -123,6 +125,52 @@ public class MessageConductor {
             }
 
             if (messageText != null) {
+                unreadIntent.putExtra(Constants.INTENT_DATA, Constants.UNREAD_EVENT);
+                context.sendBroadcast(unreadIntent);
+            }
+        }else if (topic.contains(Constants.STOP_EVENT)) {
+            int unreadCount = app.getUnreadCount();
+            String messageText = d.getString("mes");
+            app.setUnreadCount(++unreadCount);
+
+            // Log message with the following format:
+            // [yyyy-mm-dd hh:mm:ss.S] Received text:
+            // <message text>
+            Date date = new Date();
+            String logMessage = "["+new Timestamp(date.getTime())+"] Received Mes:\n";
+            app.getMessageLog().add(logMessage + messageText);
+
+            // Send intent to LOG fragment to mark list data invalidated
+            String runningActivity = app.getCurrentRunningActivity();
+            //if (runningActivity != null && runningActivity.equals(LogPagerFragment.class.getName())) {
+            Intent actionIntent = new Intent(Constants.APP_ID + Constants.INTENT_LOG);
+            actionIntent.putExtra(Constants.INTENT_DATA, Constants.TEXT_EVENT);
+            context.sendBroadcast(actionIntent);
+            //}
+
+            // Send intent to current active fragment / activity to update Unread message count
+            // Skip sending intent if active tab is LOG
+            // TODO: 'current activity' code needs fixing.
+            Intent unreadIntent;
+            if (runningActivity.equals(LogPagerFragment.class.getName())) {
+                unreadIntent = new Intent(Constants.APP_ID + Constants.INTENT_LOG);
+            } else if (runningActivity.equals(LoginPagerFragment.class.getName())) {
+                unreadIntent = new Intent(Constants.APP_ID + Constants.INTENT_LOGIN);
+            } else if (runningActivity.equals(IoTPagerFragment.class.getName())) {
+                unreadIntent = new Intent(Constants.APP_ID + Constants.INTENT_IOT);
+            } else if (runningActivity.equals(ProfilesActivity.class.getName())) {
+                unreadIntent = new Intent(Constants.APP_ID + Constants.INTENT_PROFILES);
+            } else {
+                return;
+            }
+
+            if (messageText != null) {
+
+                if(messageText.equals("true")){
+                    IoTPagerFragment.mState = IoTPagerFragment.ConnectionState.IDLE;
+                    Log.d("STT", "onClickRecord: CONNECTED -> IDLE");
+                    SpeechToText.sharedInstance().stopRecognition();
+                }
                 unreadIntent.putExtra(Constants.INTENT_DATA, Constants.UNREAD_EVENT);
                 context.sendBroadcast(unreadIntent);
             }

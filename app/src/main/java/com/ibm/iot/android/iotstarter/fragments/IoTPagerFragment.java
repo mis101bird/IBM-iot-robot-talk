@@ -61,10 +61,10 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
     private DrawingView drawingView;
     private Handler mHandler = null;
     private static String mRecognitionResults = "";
-    private enum ConnectionState {
+    public static enum ConnectionState {
         IDLE, CONNECTING, CONNECTED
     }
-    static ConnectionState mState = ConnectionState.IDLE;
+    public static ConnectionState mState = ConnectionState.IDLE;
 
     /**************************************************************************
      * Fragment functions for establishing the fragment

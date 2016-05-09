@@ -52,6 +52,7 @@ public class Constants {
     public final static String TOUCH_EVENT = "touchmove";
     public final static String LIGHT_EVENT = "light";
     public final static String TEXT_EVENT = "text";
+    public final static String STOP_EVENT = "speak_use";
     public final static String ALERT_EVENT = "alert";
     public final static String UNREAD_EVENT = "unread";
     public final static String STATUS_EVENT = "status";
