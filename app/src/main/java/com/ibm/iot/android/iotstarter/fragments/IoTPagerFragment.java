@@ -187,6 +187,8 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
         mIat.setParameter(SpeechConstant.LANGUAGE,"zh_cn");
         mIat.setParameter(SpeechConstant.ACCENT, "mandarin");
         mIat.setParameter(SpeechConstant.NET_TIMEOUT, "1000");
+        mIat.setParameter(SpeechConstant.ASR_PTT, "0");
+        mIat.setParameter(SpeechConstant.TEXT_ENCODING, "utf-8");
         /*
         if (initSTT() == false) {
             Toast.makeText(this.getActivity(), "STT Error: no authentication", Toast.LENGTH_LONG).show();

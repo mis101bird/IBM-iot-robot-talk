@@ -55,7 +55,7 @@
                 android:hint="@string/organization_value"
                 android:inputType="textNoSuggestions"
                 android:id="@+id/organizationValue"
-                />
+            android:text="j6w08m" />
         <TextView
                 style="@style/MyActionBarTitleText"
                 android:layout_width="wrap_content"
@@ -81,7 +81,7 @@
                 android:hint="@string/device_id_value"
                 android:inputType="textNoSuggestions"
                 android:id="@+id/deviceIDValue"
-                />
+            android:text="phone01" />
         <TextView
                 style="@style/MyActionBarTitleText"
                 android:layout_width="wrap_content"
@@ -108,7 +108,7 @@
                 android:hint="@string/auth_token_value"
                 android:inputType="textPassword"
                 android:id="@+id/authTokenValue"
-                />
+            android:text="852852852" />
         <Button
                 style="@style/SmallButton"
                 android:layout_gravity="center|bottom"
