@@ -542,9 +542,9 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
                 // create ActionListener to handle message published results
                 MyIoTActionListener listener = new MyIoTActionListener(context, Constants.ActionStateStatus.PUBLISH);
                 IoTClient iotClient = IoTClient.getInstance(context);
-                String messageData = MessageFactory.getTextMessage(mRecognitionResults);
+                String messageData = MessageFactory.getTextMessage(text);
                 Log.d("text","message: "+messageData);
-                iotClient.publishEvent(Constants.TEXT_EVENT, "string", text, 0, false, listener);
+                iotClient.publishEvent(Constants.TEXT_EVENT, "json", messageData, 0, false, listener);
 
                 int count = app.getPublishCount();
                 app.setPublishCount(++count);

@@ -54,76 +54,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#690#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#12033#12034#0" expanded="false" />
-                <element signature="e#12068#12069#0" expanded="false" />
-                <element signature="e#12124#12125#0" expanded="false" />
-                <element signature="e#12172#12173#0" expanded="false" />
-                <element signature="e#12207#12208#0" expanded="false" />
-                <element signature="e#12238#12239#0" expanded="false" />
-                <element signature="e#12286#12287#0" expanded="false" />
-                <element signature="e#12326#12327#0" expanded="false" />
-                <element signature="e#12362#12363#0" expanded="false" />
-                <element signature="e#12394#12395#0" expanded="false" />
-                <element signature="e#12444#12445#0" expanded="false" />
-                <element signature="e#12486#12487#0" expanded="false" />
-                <element signature="e#12554#12555#0" expanded="false" />
-                <element signature="e#12596#12597#0" expanded="false" />
-                <element signature="e#12655#12656#0" expanded="false" />
-                <element signature="e#12697#12698#0" expanded="false" />
-                <element signature="e#12733#12734#0" expanded="false" />
-                <element signature="e#12765#12766#0" expanded="false" />
-                <element signature="e#12816#12817#0" expanded="false" />
-                <element signature="e#12858#12859#0" expanded="false" />
-                <element signature="e#12894#12895#0" expanded="false" />
-                <element signature="e#12929#12930#0" expanded="false" />
-                <element signature="e#12982#12983#0" expanded="false" />
-                <element signature="e#13030#13031#0" expanded="false" />
-                <element signature="e#13066#13067#0" expanded="false" />
-                <element signature="e#13101#13102#0" expanded="false" />
-                <element signature="e#13154#13155#0" expanded="false" />
-                <element signature="e#13202#13203#0" expanded="false" />
-                <element signature="e#13237#13238#0" expanded="false" />
-                <element signature="e#13271#13272#0" expanded="false" />
-                <element signature="e#13322#13323#0" expanded="false" />
-                <element signature="e#13368#13369#0" expanded="false" />
-                <element signature="e#13397#13398#0" expanded="false" />
-                <element signature="e#13425#13426#0" expanded="false" />
-                <element signature="e#13464#13465#0" expanded="false" />
-                <element signature="e#13498#13499#0" expanded="false" />
-                <element signature="e#13606#13607#0" expanded="false" />
-                <element signature="e#13656#13657#0" expanded="false" />
-                <element signature="e#13704#13705#0" expanded="false" />
-                <element signature="e#13737#13738#0" expanded="false" />
-                <element signature="e#13776#13777#0" expanded="false" />
-                <element signature="e#13811#13812#0" expanded="false" />
-                <element signature="e#13869#13870#0" expanded="false" />
-                <element signature="e#13917#13918#0" expanded="false" />
-                <element signature="e#13962#13963#0" expanded="false" />
-                <element signature="e#13997#13998#0" expanded="false" />
-                <element signature="e#14059#14060#0" expanded="false" />
-                <element signature="e#14107#14108#0" expanded="false" />
-                <element signature="e#14151#14152#0" expanded="false" />
-                <element signature="e#14189#14190#0" expanded="false" />
-                <element signature="e#14737#14738#0" expanded="false" />
-                <element signature="e#14768#14769#0" expanded="false" />
-                <element signature="e#14818#14819#0" expanded="false" />
-                <element signature="e#14853#14854#0" expanded="false" />
-                <element signature="e#14902#14903#0" expanded="false" />
-                <element signature="e#14939#14940#0" expanded="false" />
-                <element signature="e#14991#14992#0" expanded="false" />
-                <element signature="e#15035#15036#0" expanded="false" />
-                <element signature="e#15072#15073#0" expanded="false" />
-                <element signature="e#15105#15106#0" expanded="false" />
-                <element signature="e#15138#15139#0" expanded="false" />
-                <element signature="e#15167#15168#0" expanded="false" />
-                <element signature="e#15212#15213#0" expanded="false" />
-                <element signature="e#15248#15249#0" expanded="false" />
-                <element signature="e#15288#15289#0" expanded="false" />
-                <element signature="e#15324#15325#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,10 +87,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <marker date="1462934603672" expanded="true" signature="49:181" placeholder="{...}" />
-                <marker date="1462934603672" expanded="true" signature="735:1023" placeholder="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -179,12 +107,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#690#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#3985#3986#0" expanded="false" />
-                <element signature="e#4029#4030#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -199,11 +122,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33707866">
-              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+            <state vertical-scroll-proportion="-10.16129">
+              <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IoTPagerFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ibm/iot/android/iotstarter/fragments/IoTPagerFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7228682">
+              <caret line="545" column="54" selection-start-line="545" selection-start-column="54" selection-end-line="545" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -1593,8 +1526,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/ibm/iot/android/iotstarter/speech/setting/IatSettings.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/login.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ibm/iot/android/iotstarter/fragments/IoTPagerFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ibm/iot/android/iotstarter/fragments/IoTPagerFragment.java" />
       </list>
     </option>
   </component>
@@ -1604,8 +1537,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1652,6 +1585,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1705,25 +1639,49 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iotstarter" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane">
-        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="iot-starter-for-android-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iotstarter" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iot-starter-for-android-master" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1854,6 +1812,21 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iot-starter-for-android-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2080,7 +2053,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2094,10 +2067,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871288" sideWeight="0.49358973" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22921348" sideWeight="0.4946581" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22816901" sideWeight="0.4946581" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18002136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17976804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2183,10 +2156,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1462934603672" expanded="true" signature="49:181" placeholder="{...}" />
-            <marker date="1462934603672" expanded="true" signature="735:1023" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2499,10 +2469,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <marker date="1462934603672" expanded="true" signature="49:181" placeholder="{...}" />
-            <marker date="1462934603672" expanded="true" signature="735:1023" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2510,76 +2477,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#690#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#12033#12034#0" expanded="false" />
-            <element signature="e#12068#12069#0" expanded="false" />
-            <element signature="e#12124#12125#0" expanded="false" />
-            <element signature="e#12172#12173#0" expanded="false" />
-            <element signature="e#12207#12208#0" expanded="false" />
-            <element signature="e#12238#12239#0" expanded="false" />
-            <element signature="e#12286#12287#0" expanded="false" />
-            <element signature="e#12326#12327#0" expanded="false" />
-            <element signature="e#12362#12363#0" expanded="false" />
-            <element signature="e#12394#12395#0" expanded="false" />
-            <element signature="e#12444#12445#0" expanded="false" />
-            <element signature="e#12486#12487#0" expanded="false" />
-            <element signature="e#12554#12555#0" expanded="false" />
-            <element signature="e#12596#12597#0" expanded="false" />
-            <element signature="e#12655#12656#0" expanded="false" />
-            <element signature="e#12697#12698#0" expanded="false" />
-            <element signature="e#12733#12734#0" expanded="false" />
-            <element signature="e#12765#12766#0" expanded="false" />
-            <element signature="e#12816#12817#0" expanded="false" />
-            <element signature="e#12858#12859#0" expanded="false" />
-            <element signature="e#12894#12895#0" expanded="false" />
-            <element signature="e#12929#12930#0" expanded="false" />
-            <element signature="e#12982#12983#0" expanded="false" />
-            <element signature="e#13030#13031#0" expanded="false" />
-            <element signature="e#13066#13067#0" expanded="false" />
-            <element signature="e#13101#13102#0" expanded="false" />
-            <element signature="e#13154#13155#0" expanded="false" />
-            <element signature="e#13202#13203#0" expanded="false" />
-            <element signature="e#13237#13238#0" expanded="false" />
-            <element signature="e#13271#13272#0" expanded="false" />
-            <element signature="e#13322#13323#0" expanded="false" />
-            <element signature="e#13368#13369#0" expanded="false" />
-            <element signature="e#13397#13398#0" expanded="false" />
-            <element signature="e#13425#13426#0" expanded="false" />
-            <element signature="e#13464#13465#0" expanded="false" />
-            <element signature="e#13498#13499#0" expanded="false" />
-            <element signature="e#13606#13607#0" expanded="false" />
-            <element signature="e#13656#13657#0" expanded="false" />
-            <element signature="e#13704#13705#0" expanded="false" />
-            <element signature="e#13737#13738#0" expanded="false" />
-            <element signature="e#13776#13777#0" expanded="false" />
-            <element signature="e#13811#13812#0" expanded="false" />
-            <element signature="e#13869#13870#0" expanded="false" />
-            <element signature="e#13917#13918#0" expanded="false" />
-            <element signature="e#13962#13963#0" expanded="false" />
-            <element signature="e#13997#13998#0" expanded="false" />
-            <element signature="e#14059#14060#0" expanded="false" />
-            <element signature="e#14107#14108#0" expanded="false" />
-            <element signature="e#14151#14152#0" expanded="false" />
-            <element signature="e#14189#14190#0" expanded="false" />
-            <element signature="e#14737#14738#0" expanded="false" />
-            <element signature="e#14768#14769#0" expanded="false" />
-            <element signature="e#14818#14819#0" expanded="false" />
-            <element signature="e#14853#14854#0" expanded="false" />
-            <element signature="e#14902#14903#0" expanded="false" />
-            <element signature="e#14939#14940#0" expanded="false" />
-            <element signature="e#14991#14992#0" expanded="false" />
-            <element signature="e#15035#15036#0" expanded="false" />
-            <element signature="e#15072#15073#0" expanded="false" />
-            <element signature="e#15105#15106#0" expanded="false" />
-            <element signature="e#15138#15139#0" expanded="false" />
-            <element signature="e#15167#15168#0" expanded="false" />
-            <element signature="e#15212#15213#0" expanded="false" />
-            <element signature="e#15248#15249#0" expanded="false" />
-            <element signature="e#15288#15289#0" expanded="false" />
-            <element signature="e#15324#15325#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2598,12 +2496,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#690#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3985#3986#0" expanded="false" />
-            <element signature="e#4029#4030#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2612,13 +2505,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="126" column="13" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ibm/iot/android/iotstarter/fragments/IoTPagerFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9289544">
-          <caret line="188" column="62" selection-start-line="188" selection-start-column="62" selection-end-line="188" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -2639,8 +2525,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33707866">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        <state vertical-scroll-proportion="-10.16129">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ibm/iot/android/iotstarter/fragments/IoTPagerFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7228682">
+          <caret line="545" column="54" selection-start-line="545" selection-start-column="54" selection-end-line="545" selection-end-column="54" />
           <folding />
         </state>
       </provider>
