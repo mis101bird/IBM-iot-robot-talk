@@ -201,6 +201,7 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
         SpeechToText.sharedInstance().setCredentials(username, password);
         SpeechToText.sharedInstance().setModel(getString(R.string.modelDefault)); //預設SST語言
         SpeechToText.sharedInstance().setDelegate(this);
+
         return true;
     }
 

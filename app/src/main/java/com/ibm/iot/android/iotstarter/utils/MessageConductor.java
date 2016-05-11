@@ -166,10 +166,14 @@ public class MessageConductor {
 
             if (messageText != null) {
 
-                if(messageText.equals("true")){
+                if(messageText.equals("true") && IoTPagerFragment.mState == IoTPagerFragment.ConnectionState.CONNECTED){
                     IoTPagerFragment.mState = IoTPagerFragment.ConnectionState.IDLE;
                     Log.d("STT", "onClickRecord: CONNECTED -> IDLE");
-                    SpeechToText.sharedInstance().stopRecognition();
+                    SpeechToText.sharedInstance().stopRecording();
+                }else if(messageText.equals("false") && IoTPagerFragment.mState == IoTPagerFragment.ConnectionState.IDLE){
+                    IoTPagerFragment.mState = IoTPagerFragment.ConnectionState.CONNECTED;
+                    Log.d("STT", "onClickRecord: IDLE -> CONNECTED");
+                    SpeechToText.sharedInstance().recognize(); //開始轉錄
                 }
                 unreadIntent.putExtra(Constants.INTENT_DATA, Constants.UNREAD_EVENT);
                 context.sendBroadcast(unreadIntent);

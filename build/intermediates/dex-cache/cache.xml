@@ -2,62 +2,6 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\ser\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.5\686c608d1805b6d4d425ec4459e88164ffc85870\gson-2.5.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="686c608d1805b6d4d425ec4459e88164ffc85870">
-        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\gson-2.5-aa2995e61446354ae63ec66e534894d5839f043b.jar" />
-    </item>
-    <item
-        jar="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\classes-dd196806326f1325203214ef49aa95057aade433.jar" />
-    </item>
-    <item
-        jar="C:\Users\ser\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\java-sdk\2.8.0\f3e9b97639c7b87b6b9b302821e8796d9784d997\java-sdk-2.8.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="f3e9b97639c7b87b6b9b302821e8796d9784d997">
-        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\java-sdk-2.8.0-3deccc2f66f76a34b7888651aab188ccc508922b.jar" />
-    </item>
-    <item
-        jar="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\exploded-aar\speech-android-wrapper\jars\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="18152ddcb8a2fe2fdf101667ea80dbd9505ca50c">
-        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\classes-d946b59f026288b6b213c130ac2a06655f7c9ed5.jar" />
-    </item>
-    <item
-        jar="C:\Users\ser\Desktop\iot-starter-for-android-master\app\libs\org.eclipse.paho.android.service.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="36289fb3b9bb223c35b69449e25a48aef2df756b">
-        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\org.eclipse.paho.android.service-5ea3a4dcb9f300dea6a1345a960b747c060f8a3a.jar" />
-    </item>
-    <item
-        jar="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\classes-cdb028d13f41a8557719e2da32a415b056ca1be6.jar" />
-    </item>
-    <item
-        jar="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\exploded-aar\speech-android-wrapper\jars\libs\java_websocket.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="35f488c2a8cb28569c1bbf69abcb1b8b04db8e01">
-        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\java_websocket-91749a9e6a520f952bae653ea60c16b691ab391b.jar" />
-    </item>
-    <item
-        jar="C:\Users\ser\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.4\5fe28b9518e58819180a43a850fbc0dd24b7c050\commons-lang3-3.4.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="5fe28b9518e58819180a43a850fbc0dd24b7c050">
-        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\commons-lang3-3.4-4cb79d85629c7864b86c702985e87221c6db3f36.jar" />
-    </item>
-    <item
         jar="C:\Users\ser\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -65,32 +9,11 @@
         <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\okio-1.6.0-5dc870a6a7ef5dcba75026707dc6a895158c7e46.jar" />
     </item>
     <item
-        jar="C:\Users\ser\Desktop\iot-starter-for-android-master\app\libs\org.eclipse.paho.client.mqttv3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="da5fbfa8088506ea0f3a160adf4396cb3ed4cc8f">
-        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\org.eclipse.paho.client.mqttv3-c3df592e23503f072bec9fa6365e6cbb635020a4.jar" />
-    </item>
-    <item
-        jar="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\jars\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
-        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\classes-8663b75691f7271c99754d4788a25acc60b4741d.jar" />
-    </item>
-    <item
         jar="C:\Users\ser\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
         <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-1d5651d2ab88eea687281e364439a8da7deb89f5.jar" />
-    </item>
-    <item
-        jar="C:\Users\ser\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.7.2\20f6463eb19ac61960c5d91a094c2f4f0727dc2e\okhttp-2.7.2.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="20f6463eb19ac61960c5d91a094c2f4f0727dc2e">
-        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\okhttp-2.7.2-f04da2a9d07d8b96e5de51d00c55488148e772e2.jar" />
     </item>
     <item
         jar="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\exploded-aar\speech-android-wrapper\jars\libs\jna.jar"
@@ -107,6 +30,13 @@
         <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-2d4cf6caa281a13d4572e5f61b96f6537b20871e.jar" />
     </item>
     <item
+        jar="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\classes-cdb028d13f41a8557719e2da32a415b056ca1be6.jar" />
+    </item>
+    <item
         jar="C:\Users\ser\.gradle\caches\modules-2\files-2.1\com.neovisionaries\nv-websocket-client\1.21\97451698d0fc7c95cb5ab326c941389affb08052\nv-websocket-client-1.21.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -119,6 +49,76 @@
         revision="21.1.2"
         sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
         <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\commons-io-2.4-6235843d063509c4a4c55545d93cbc81854f3fca.jar" />
+    </item>
+    <item
+        jar="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\exploded-aar\speech-android-wrapper\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="18152ddcb8a2fe2fdf101667ea80dbd9505ca50c">
+        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\classes-d946b59f026288b6b213c130ac2a06655f7c9ed5.jar" />
+    </item>
+    <item
+        jar="C:\Users\ser\Desktop\iot-starter-for-android-master\app\libs\org.eclipse.paho.android.service.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="36289fb3b9bb223c35b69449e25a48aef2df756b">
+        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\org.eclipse.paho.android.service-5ea3a4dcb9f300dea6a1345a960b747c060f8a3a.jar" />
+    </item>
+    <item
+        jar="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\classes-dd196806326f1325203214ef49aa95057aade433.jar" />
+    </item>
+    <item
+        jar="C:\Users\ser\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.5\686c608d1805b6d4d425ec4459e88164ffc85870\gson-2.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686c608d1805b6d4d425ec4459e88164ffc85870">
+        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\gson-2.5-aa2995e61446354ae63ec66e534894d5839f043b.jar" />
+    </item>
+    <item
+        jar="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\exploded-aar\speech-android-wrapper\jars\libs\java_websocket.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="35f488c2a8cb28569c1bbf69abcb1b8b04db8e01">
+        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\java_websocket-91749a9e6a520f952bae653ea60c16b691ab391b.jar" />
+    </item>
+    <item
+        jar="C:\Users\ser\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.7.2\20f6463eb19ac61960c5d91a094c2f4f0727dc2e\okhttp-2.7.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="20f6463eb19ac61960c5d91a094c2f4f0727dc2e">
+        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\okhttp-2.7.2-f04da2a9d07d8b96e5de51d00c55488148e772e2.jar" />
+    </item>
+    <item
+        jar="C:\Users\ser\.gradle\caches\modules-2\files-2.1\com.ibm.watson.developer_cloud\java-sdk\2.8.0\f3e9b97639c7b87b6b9b302821e8796d9784d997\java-sdk-2.8.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f3e9b97639c7b87b6b9b302821e8796d9784d997">
+        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\java-sdk-2.8.0-3deccc2f66f76a34b7888651aab188ccc508922b.jar" />
+    </item>
+    <item
+        jar="C:\Users\ser\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.4\5fe28b9518e58819180a43a850fbc0dd24b7c050\commons-lang3-3.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5fe28b9518e58819180a43a850fbc0dd24b7c050">
+        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\commons-lang3-3.4-4cb79d85629c7864b86c702985e87221c6db3f36.jar" />
+    </item>
+    <item
+        jar="C:\Users\ser\Desktop\iot-starter-for-android-master\app\libs\org.eclipse.paho.client.mqttv3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="da5fbfa8088506ea0f3a160adf4396cb3ed4cc8f">
+        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\org.eclipse.paho.client.mqttv3-c3df592e23503f072bec9fa6365e6cbb635020a4.jar" />
+    </item>
+    <item
+        jar="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\ser\Desktop\iot-starter-for-android-master\app\build\intermediates\pre-dexed\debug\classes-8663b75691f7271c99754d4788a25acc60b4741d.jar" />
     </item>
 
 </items>
