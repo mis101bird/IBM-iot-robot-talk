@@ -169,8 +169,8 @@ public class MessageConductor {
                 if(messageText.equals("true") && IoTPagerFragment.mState == IoTPagerFragment.ConnectionState.CONNECTED){
                     IoTPagerFragment.mState = IoTPagerFragment.ConnectionState.IDLE;
                     Log.d("STT", "onClickRecord: CONNECTED -> IDLE");
-                    SpeechToText.sharedInstance().stopRecording();
-                }else if(messageText.equals("false") && IoTPagerFragment.mState == IoTPagerFragment.ConnectionState.IDLE){
+                    SpeechToText.sharedInstance().stopRecognition();
+                }else if(messageText.equals("false") && IoTPagerFragment.mState == IoTPagerFragment.ConnectionState.IDLE&&IoTPagerFragment.uiStop==false){
                     IoTPagerFragment.mState = IoTPagerFragment.ConnectionState.CONNECTED;
                     Log.d("STT", "onClickRecord: IDLE -> CONNECTED");
                     SpeechToText.sharedInstance().recognize(); //開始轉錄

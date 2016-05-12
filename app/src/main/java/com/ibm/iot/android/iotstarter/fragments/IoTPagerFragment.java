@@ -60,6 +60,7 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
     private final static String TAG = IoTPagerFragment.class.getName();
     private DrawingView drawingView;
     private Handler mHandler = null;
+    public static boolean uiStop=true;
     private static String mRecognitionResults = "";
     public static enum ConnectionState {
         IDLE, CONNECTING, CONNECTED
@@ -226,12 +227,14 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
                 new AsyncTask<Void, Void, Void>() {
                     @Override
                     protected Void doInBackground(Void... none) {
+                        uiStop=false;
                         SpeechToText.sharedInstance().recognize(); //開始轉錄
                         return null;
                     }
                 }.execute();
 
             } else if (mState == ConnectionState.CONNECTED) {
+                uiStop=true;
                 mState = ConnectionState.IDLE;
                 Log.d("STT", "onClickRecord: CONNECTED -> IDLE");
                 SpeechToText.sharedInstance().stopRecognition();
@@ -411,7 +414,7 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
                                 IoTClient iotClient = IoTClient.getInstance(context);
                                 String messageData = MessageFactory.getTextMessage(mRecognitionResults);
                                 Log.d("text","message: "+messageData);
-                                iotClient.publishEvent(Constants.TEXT_EVENT, "json", message, 0, false, listener);
+                                iotClient.publishEvent(Constants.TEXT_EVENT, "json", messageData, 0, false, listener);
 
                                 int count = app.getPublishCount();
                                 app.setPublishCount(++count);

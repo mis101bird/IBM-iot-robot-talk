@@ -44,6 +44,7 @@ public class IoTStarterPagerFragment extends Fragment {
     IoTStarterApplication app;
     BroadcastReceiver broadcastReceiver;
 
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
