@@ -2402,33 +2402,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.ibm.iot.android.iotstarter4:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.ibm.iot.android.iotstarter4:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.ibm.iot.android.iotstarter4:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.ibm.iot.android.iotstarter4:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.ibm.iot.android.iotstarter4:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.ibm.iot.android.iotstarter4:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.ibm.iot.android.iotstarter4:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.ibm.iot.android.iotstarter4:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.ibm.iot.android.iotstarter4:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.ibm.iot.android.iotstarter4:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.ibm.iot.android.iotstarter4:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.ibm.iot.android.iotstarter4:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.ibm.iot.android.iotstarter4:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.ibm.iot.android.iotstarter4:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.ibm.iot.android.iotstarter4:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.ibm.iot.android.iotstarter4:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.ibm.iot.android.iotstarter4:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.ibm.iot.android.iotstarter4:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.ibm.iot.android.iotstarter4:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.ibm.iot.android.iotstarter4:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.ibm.iot.android.iotstarter4:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.ibm.iot.android.iotstarter4:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.ibm.iot.android.iotstarter4:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.ibm.iot.android.iotstarter4:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.ibm.iot.android.iotstarter4:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.ibm.iot.android.iotstarter4:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.ibm.iot.android.iotstarter4:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.ibm.iot.android.iotstarterTTS:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.ibm.iot.android.iotstarterTTS:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.ibm.iot.android.iotstarterTTS:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.ibm.iot.android.iotstarterTTS:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.ibm.iot.android.iotstarterTTS:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.ibm.iot.android.iotstarterTTS:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.ibm.iot.android.iotstarterTTS:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.ibm.iot.android.iotstarterTTS:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.ibm.iot.android.iotstarterTTS:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.ibm.iot.android.iotstarterTTS:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.ibm.iot.android.iotstarterTTS:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.ibm.iot.android.iotstarterTTS:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.ibm.iot.android.iotstarterTTS:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.ibm.iot.android.iotstarterTTS:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.ibm.iot.android.iotstarterTTS:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.ibm.iot.android.iotstarterTTS:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.ibm.iot.android.iotstarterTTS:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.ibm.iot.android.iotstarterTTS:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.ibm.iot.android.iotstarterTTS:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.ibm.iot.android.iotstarterTTS:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.ibm.iot.android.iotstarterTTS:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.ibm.iot.android.iotstarterTTS:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.ibm.iot.android.iotstarterTTS:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.ibm.iot.android.iotstarterTTS:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.ibm.iot.android.iotstarterTTS:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.ibm.iot.android.iotstarterTTS:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.ibm.iot.android.iotstarterTTS:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -2468,17 +2468,17 @@ containing a value of this type.
             0x7f01001a, 0x7f01001b, 0x7f010091
         };
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#background}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:background
+          @attr name com.ibm.iot.android.iotstarterTTS:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2486,11 +2486,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:backgroundSplit
+          @attr name com.ibm.iot.android.iotstarterTTS:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2498,11 +2498,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:backgroundStacked
+          @attr name com.ibm.iot.android.iotstarterTTS:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2514,11 +2514,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:contentInsetEnd
+          @attr name com.ibm.iot.android.iotstarterTTS:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2530,11 +2530,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:contentInsetLeft
+          @attr name com.ibm.iot.android.iotstarterTTS:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2546,11 +2546,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:contentInsetRight
+          @attr name com.ibm.iot.android.iotstarterTTS:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2562,21 +2562,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:contentInsetStart
+          @attr name com.ibm.iot.android.iotstarterTTS:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:customNavigationLayout
+          @attr name com.ibm.iot.android.iotstarterTTS:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2594,21 +2594,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.ibm.iot.android.iotstarter4:displayOptions
+          @attr name com.ibm.iot.android.iotstarterTTS:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:divider
+          @attr name com.ibm.iot.android.iotstarterTTS:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2620,11 +2620,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:elevation
+          @attr name com.ibm.iot.android.iotstarterTTS:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#height}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2636,11 +2636,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:height
+          @attr name com.ibm.iot.android.iotstarterTTS:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2650,51 +2650,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:hideOnContentScroll
+          @attr name com.ibm.iot.android.iotstarterTTS:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:homeAsUpIndicator
+          @attr name com.ibm.iot.android.iotstarterTTS:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:homeLayout
+          @attr name com.ibm.iot.android.iotstarterTTS:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:icon
+          @attr name com.ibm.iot.android.iotstarterTTS:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:indeterminateProgressStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2706,21 +2706,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:itemPadding
+          @attr name com.ibm.iot.android.iotstarterTTS:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:logo
+          @attr name com.ibm.iot.android.iotstarterTTS:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2734,21 +2734,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.ibm.iot.android.iotstarter4:navigationMode
+          @attr name com.ibm.iot.android.iotstarterTTS:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:popupTheme
+          @attr name com.ibm.iot.android.iotstarterTTS:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2760,21 +2760,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:progressBarPadding
+          @attr name com.ibm.iot.android.iotstarterTTS:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:progressBarStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2784,21 +2784,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:subtitle
+          @attr name com.ibm.iot.android.iotstarterTTS:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:subtitleTextStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#title}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2808,17 +2808,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:title
+          @attr name com.ibm.iot.android.iotstarterTTS:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:titleTextStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -2870,12 +2870,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.ibm.iot.android.iotstarter4:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.ibm.iot.android.iotstarter4:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.ibm.iot.android.iotstarter4:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.ibm.iot.android.iotstarter4:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.ibm.iot.android.iotstarter4:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.ibm.iot.android.iotstarter4:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.ibm.iot.android.iotstarterTTS:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.ibm.iot.android.iotstarterTTS:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.ibm.iot.android.iotstarterTTS:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.ibm.iot.android.iotstarterTTS:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.ibm.iot.android.iotstarterTTS:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.ibm.iot.android.iotstarterTTS:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -2889,17 +2889,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#background}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:background
+          @attr name com.ibm.iot.android.iotstarterTTS:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2907,21 +2907,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:backgroundSplit
+          @attr name com.ibm.iot.android.iotstarterTTS:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:closeItemLayout
+          @attr name com.ibm.iot.android.iotstarterTTS:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#height}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2933,27 +2933,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:height
+          @attr name com.ibm.iot.android.iotstarterTTS:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:subtitleTextStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:titleTextStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -2962,8 +2962,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.ibm.iot.android.iotstarter4:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.ibm.iot.android.iotstarter4:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.ibm.iot.android.iotstarterTTS:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.ibm.iot.android.iotstarterTTS:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -2972,17 +2972,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:expandActivityOverflowButtonDrawable
+          @attr name com.ibm.iot.android.iotstarterTTS:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -2992,7 +2992,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:initialActivityCount
+          @attr name com.ibm.iot.android.iotstarterTTS:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AdsAttrs.
@@ -3001,9 +3001,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AdsAttrs_adSize com.ibm.iot.android.iotstarter4:adSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adSizes com.ibm.iot.android.iotstarter4:adSizes}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adUnitId com.ibm.iot.android.iotstarter4:adUnitId}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSize com.ibm.iot.android.iotstarterTTS:adSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSizes com.ibm.iot.android.iotstarterTTS:adSizes}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adUnitId com.ibm.iot.android.iotstarterTTS:adUnitId}</code></td><td></td></tr>
            </table>
            @see #AdsAttrs_adSize
            @see #AdsAttrs_adSizes
@@ -3013,7 +3013,7 @@ containing a value of this type.
             0x7f01001f, 0x7f010020, 0x7f010021
         };
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#adSize}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#adSize}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -3023,11 +3023,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:adSize
+          @attr name com.ibm.iot.android.iotstarterTTS:adSize
         */
         public static final int AdsAttrs_adSize = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#adSizes}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#adSizes}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -3037,11 +3037,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:adSizes
+          @attr name com.ibm.iot.android.iotstarterTTS:adSizes
         */
         public static final int AdsAttrs_adSizes = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#adUnitId}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#adUnitId}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -3051,7 +3051,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:adUnitId
+          @attr name com.ibm.iot.android.iotstarterTTS:adUnitId
         */
         public static final int AdsAttrs_adUnitId = 2;
         /** Attributes that can be used with a CompatTextView.
@@ -3060,7 +3060,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CompatTextView_textAllCaps com.ibm.iot.android.iotstarter4:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompatTextView_textAllCaps com.ibm.iot.android.iotstarterTTS:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #CompatTextView_textAllCaps
          */
@@ -3068,14 +3068,14 @@ containing a value of this type.
             0x7f010022
         };
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#textAllCaps}
           attribute's value can be found in the {@link #CompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.ibm.iot.android.iotstarter4:textAllCaps
+          @attr name com.ibm.iot.android.iotstarterTTS:textAllCaps
         */
         public static final int CompatTextView_textAllCaps = 0;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -3084,14 +3084,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barSize com.ibm.iot.android.iotstarter4:barSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.ibm.iot.android.iotstarter4:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.ibm.iot.android.iotstarter4:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.ibm.iot.android.iotstarter4:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize com.ibm.iot.android.iotstarter4:middleBarArrowSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.ibm.iot.android.iotstarter4:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.ibm.iot.android.iotstarter4:thickness}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize com.ibm.iot.android.iotstarter4:topBottomBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barSize com.ibm.iot.android.iotstarterTTS:barSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.ibm.iot.android.iotstarterTTS:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.ibm.iot.android.iotstarterTTS:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.ibm.iot.android.iotstarterTTS:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize com.ibm.iot.android.iotstarterTTS:middleBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.ibm.iot.android.iotstarterTTS:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.ibm.iot.android.iotstarterTTS:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize com.ibm.iot.android.iotstarterTTS:topBottomBarArrowSize}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_barSize
            @see #DrawerArrowToggle_color
@@ -3107,7 +3107,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a
         };
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#barSize}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#barSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3119,11 +3119,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:barSize
+          @attr name com.ibm.iot.android.iotstarterTTS:barSize
         */
         public static final int DrawerArrowToggle_barSize = 6;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#color}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3134,11 +3134,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:color
+          @attr name com.ibm.iot.android.iotstarterTTS:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3150,11 +3150,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:drawableSize
+          @attr name com.ibm.iot.android.iotstarterTTS:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3166,11 +3166,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:gapBetweenBars
+          @attr name com.ibm.iot.android.iotstarterTTS:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#middleBarArrowSize}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#middleBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3182,11 +3182,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:middleBarArrowSize
+          @attr name com.ibm.iot.android.iotstarterTTS:middleBarArrowSize
         */
         public static final int DrawerArrowToggle_middleBarArrowSize = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3196,11 +3196,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:spinBars
+          @attr name com.ibm.iot.android.iotstarterTTS:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3212,11 +3212,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:thickness
+          @attr name com.ibm.iot.android.iotstarterTTS:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#topBottomBarArrowSize}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#topBottomBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3228,7 +3228,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:topBottomBarArrowSize
+          @attr name com.ibm.iot.android.iotstarterTTS:topBottomBarArrowSize
         */
         public static final int DrawerArrowToggle_topBottomBarArrowSize = 4;
         /** Attributes that can be used with a GifTextureView.
@@ -3237,8 +3237,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #GifTextureView_gifSource com.ibm.iot.android.iotstarter4:gifSource}</code></td><td></td></tr>
-           <tr><td><code>{@link #GifTextureView_isOpaque com.ibm.iot.android.iotstarter4:isOpaque}</code></td><td></td></tr>
+           <tr><td><code>{@link #GifTextureView_gifSource com.ibm.iot.android.iotstarterTTS:gifSource}</code></td><td></td></tr>
+           <tr><td><code>{@link #GifTextureView_isOpaque com.ibm.iot.android.iotstarterTTS:isOpaque}</code></td><td></td></tr>
            </table>
            @see #GifTextureView_gifSource
            @see #GifTextureView_isOpaque
@@ -3247,18 +3247,18 @@ containing a value of this type.
             0x7f01002b, 0x7f01002c
         };
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#gifSource}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#gifSource}
           attribute's value can be found in the {@link #GifTextureView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name com.ibm.iot.android.iotstarter4:gifSource
+          @attr name com.ibm.iot.android.iotstarterTTS:gifSource
         */
         public static final int GifTextureView_gifSource = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#isOpaque}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#isOpaque}
           attribute's value can be found in the {@link #GifTextureView} array.
 
 
@@ -3268,7 +3268,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:isOpaque
+          @attr name com.ibm.iot.android.iotstarterTTS:isOpaque
         */
         public static final int GifTextureView_isOpaque = 1;
         /** Attributes that can be used with a GifView.
@@ -3277,7 +3277,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #GifView_freezesAnimation com.ibm.iot.android.iotstarter4:freezesAnimation}</code></td><td></td></tr>
+           <tr><td><code>{@link #GifView_freezesAnimation com.ibm.iot.android.iotstarterTTS:freezesAnimation}</code></td><td></td></tr>
            </table>
            @see #GifView_freezesAnimation
          */
@@ -3285,7 +3285,7 @@ containing a value of this type.
             0x7f01002d
         };
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#freezesAnimation}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#freezesAnimation}
           attribute's value can be found in the {@link #GifView} array.
 
 
@@ -3295,7 +3295,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:freezesAnimation
+          @attr name com.ibm.iot.android.iotstarterTTS:freezesAnimation
         */
         public static final int GifView_freezesAnimation = 0;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -3309,10 +3309,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.ibm.iot.android.iotstarter4:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.ibm.iot.android.iotstarter4:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.ibm.iot.android.iotstarter4:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.ibm.iot.android.iotstarter4:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.ibm.iot.android.iotstarterTTS:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.ibm.iot.android.iotstarterTTS:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.ibm.iot.android.iotstarterTTS:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.ibm.iot.android.iotstarterTTS:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -3360,17 +3360,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:divider
+          @attr name com.ibm.iot.android.iotstarterTTS:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3382,11 +3382,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:dividerPadding
+          @attr name com.ibm.iot.android.iotstarterTTS:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3396,11 +3396,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:measureWithLargestChild
+          @attr name com.ibm.iot.android.iotstarterTTS:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3415,7 +3415,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.ibm.iot.android.iotstarter4:showDividers
+          @attr name com.ibm.iot.android.iotstarterTTS:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -3494,9 +3494,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LoadingImageView_circleCrop com.ibm.iot.android.iotstarter4:circleCrop}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.ibm.iot.android.iotstarter4:imageAspectRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.ibm.iot.android.iotstarter4:imageAspectRatioAdjust}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop com.ibm.iot.android.iotstarterTTS:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.ibm.iot.android.iotstarterTTS:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.ibm.iot.android.iotstarterTTS:imageAspectRatioAdjust}</code></td><td></td></tr>
            </table>
            @see #LoadingImageView_circleCrop
            @see #LoadingImageView_imageAspectRatio
@@ -3506,7 +3506,7 @@ containing a value of this type.
             0x7f010031, 0x7f010032, 0x7f010033
         };
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#circleCrop}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#circleCrop}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -3516,11 +3516,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:circleCrop
+          @attr name com.ibm.iot.android.iotstarterTTS:circleCrop
         */
         public static final int LoadingImageView_circleCrop = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#imageAspectRatio}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#imageAspectRatio}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -3530,11 +3530,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:imageAspectRatio
+          @attr name com.ibm.iot.android.iotstarterTTS:imageAspectRatio
         */
         public static final int LoadingImageView_imageAspectRatio = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#imageAspectRatioAdjust}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#imageAspectRatioAdjust}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -3548,7 +3548,7 @@ containing a value of this type.
 <tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.ibm.iot.android.iotstarter4:imageAspectRatioAdjust
+          @attr name com.ibm.iot.android.iotstarterTTS:imageAspectRatioAdjust
         */
         public static final int LoadingImageView_imageAspectRatioAdjust = 0;
         /** Attributes that can be used with a MapAttrs.
@@ -3557,22 +3557,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MapAttrs_cameraBearing com.ibm.iot.android.iotstarter4:cameraBearing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.ibm.iot.android.iotstarter4:cameraTargetLat}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.ibm.iot.android.iotstarter4:cameraTargetLng}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTilt com.ibm.iot.android.iotstarter4:cameraTilt}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraZoom com.ibm.iot.android.iotstarter4:cameraZoom}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_liteMode com.ibm.iot.android.iotstarter4:liteMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_mapType com.ibm.iot.android.iotstarter4:mapType}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiCompass com.ibm.iot.android.iotstarter4:uiCompass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiMapToolbar com.ibm.iot.android.iotstarter4:uiMapToolbar}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.ibm.iot.android.iotstarter4:uiRotateGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.ibm.iot.android.iotstarter4:uiScrollGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.ibm.iot.android.iotstarter4:uiTiltGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomControls com.ibm.iot.android.iotstarter4:uiZoomControls}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.ibm.iot.android.iotstarter4:uiZoomGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.ibm.iot.android.iotstarter4:useViewLifecycle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.ibm.iot.android.iotstarter4:zOrderOnTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing com.ibm.iot.android.iotstarterTTS:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.ibm.iot.android.iotstarterTTS:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.ibm.iot.android.iotstarterTTS:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt com.ibm.iot.android.iotstarterTTS:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom com.ibm.iot.android.iotstarterTTS:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_liteMode com.ibm.iot.android.iotstarterTTS:liteMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType com.ibm.iot.android.iotstarterTTS:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass com.ibm.iot.android.iotstarterTTS:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiMapToolbar com.ibm.iot.android.iotstarterTTS:uiMapToolbar}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.ibm.iot.android.iotstarterTTS:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.ibm.iot.android.iotstarterTTS:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.ibm.iot.android.iotstarterTTS:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls com.ibm.iot.android.iotstarterTTS:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.ibm.iot.android.iotstarterTTS:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.ibm.iot.android.iotstarterTTS:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.ibm.iot.android.iotstarterTTS:zOrderOnTop}</code></td><td></td></tr>
            </table>
            @see #MapAttrs_cameraBearing
            @see #MapAttrs_cameraTargetLat
@@ -3598,7 +3598,7 @@ containing a value of this type.
             0x7f010040, 0x7f010041, 0x7f010042, 0x7f010043
         };
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#cameraBearing}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#cameraBearing}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3608,11 +3608,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:cameraBearing
+          @attr name com.ibm.iot.android.iotstarterTTS:cameraBearing
         */
         public static final int MapAttrs_cameraBearing = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#cameraTargetLat}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#cameraTargetLat}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3622,11 +3622,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:cameraTargetLat
+          @attr name com.ibm.iot.android.iotstarterTTS:cameraTargetLat
         */
         public static final int MapAttrs_cameraTargetLat = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#cameraTargetLng}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#cameraTargetLng}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3636,11 +3636,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:cameraTargetLng
+          @attr name com.ibm.iot.android.iotstarterTTS:cameraTargetLng
         */
         public static final int MapAttrs_cameraTargetLng = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#cameraTilt}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#cameraTilt}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3650,11 +3650,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:cameraTilt
+          @attr name com.ibm.iot.android.iotstarterTTS:cameraTilt
         */
         public static final int MapAttrs_cameraTilt = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#cameraZoom}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#cameraZoom}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3664,11 +3664,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:cameraZoom
+          @attr name com.ibm.iot.android.iotstarterTTS:cameraZoom
         */
         public static final int MapAttrs_cameraZoom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#liteMode}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#liteMode}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3678,11 +3678,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:liteMode
+          @attr name com.ibm.iot.android.iotstarterTTS:liteMode
         */
         public static final int MapAttrs_liteMode = 6;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#mapType}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#mapType}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3698,11 +3698,11 @@ containing a value of this type.
 <tr><td><code>terrain</code></td><td>3</td><td></td></tr>
 <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.ibm.iot.android.iotstarter4:mapType
+          @attr name com.ibm.iot.android.iotstarterTTS:mapType
         */
         public static final int MapAttrs_mapType = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#uiCompass}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#uiCompass}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3712,11 +3712,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:uiCompass
+          @attr name com.ibm.iot.android.iotstarterTTS:uiCompass
         */
         public static final int MapAttrs_uiCompass = 7;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#uiMapToolbar}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#uiMapToolbar}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3726,11 +3726,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:uiMapToolbar
+          @attr name com.ibm.iot.android.iotstarterTTS:uiMapToolbar
         */
         public static final int MapAttrs_uiMapToolbar = 15;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#uiRotateGestures}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#uiRotateGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3740,11 +3740,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:uiRotateGestures
+          @attr name com.ibm.iot.android.iotstarterTTS:uiRotateGestures
         */
         public static final int MapAttrs_uiRotateGestures = 8;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#uiScrollGestures}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#uiScrollGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3754,11 +3754,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:uiScrollGestures
+          @attr name com.ibm.iot.android.iotstarterTTS:uiScrollGestures
         */
         public static final int MapAttrs_uiScrollGestures = 9;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#uiTiltGestures}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#uiTiltGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3768,11 +3768,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:uiTiltGestures
+          @attr name com.ibm.iot.android.iotstarterTTS:uiTiltGestures
         */
         public static final int MapAttrs_uiTiltGestures = 10;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#uiZoomControls}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#uiZoomControls}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3782,11 +3782,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:uiZoomControls
+          @attr name com.ibm.iot.android.iotstarterTTS:uiZoomControls
         */
         public static final int MapAttrs_uiZoomControls = 11;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#uiZoomGestures}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#uiZoomGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3796,11 +3796,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:uiZoomGestures
+          @attr name com.ibm.iot.android.iotstarterTTS:uiZoomGestures
         */
         public static final int MapAttrs_uiZoomGestures = 12;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#useViewLifecycle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#useViewLifecycle}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3810,11 +3810,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:useViewLifecycle
+          @attr name com.ibm.iot.android.iotstarterTTS:useViewLifecycle
         */
         public static final int MapAttrs_useViewLifecycle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#zOrderOnTop}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#zOrderOnTop}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3824,7 +3824,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:zOrderOnTop
+          @attr name com.ibm.iot.android.iotstarterTTS:zOrderOnTop
         */
         public static final int MapAttrs_zOrderOnTop = 14;
         /** Attributes that can be used with a MenuGroup.
@@ -3893,9 +3893,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.ibm.iot.android.iotstarter4:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.ibm.iot.android.iotstarter4:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.ibm.iot.android.iotstarter4:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.ibm.iot.android.iotstarterTTS:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.ibm.iot.android.iotstarterTTS:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.ibm.iot.android.iotstarterTTS:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -3909,7 +3909,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.ibm.iot.android.iotstarter4:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.ibm.iot.android.iotstarterTTS:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -3937,17 +3937,17 @@ containing a value of this type.
             0x7f010047
         };
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionLayout
+          @attr name com.ibm.iot.android.iotstarterTTS:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3957,11 +3957,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:actionProviderClass
+          @attr name com.ibm.iot.android.iotstarterTTS:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3971,7 +3971,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:actionViewClass
+          @attr name com.ibm.iot.android.iotstarterTTS:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -4053,7 +4053,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -4069,7 +4069,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.ibm.iot.android.iotstarter4:showAsAction
+          @attr name com.ibm.iot.android.iotstarterTTS:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -4085,7 +4085,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.ibm.iot.android.iotstarter4:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.ibm.iot.android.iotstarterTTS:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -4143,7 +4143,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -4153,7 +4153,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:preserveIconSpacing
+          @attr name com.ibm.iot.android.iotstarterTTS:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a PopupWindow.
@@ -4163,7 +4163,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.ibm.iot.android.iotstarter4:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.ibm.iot.android.iotstarterTTS:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -4178,7 +4178,7 @@ containing a value of this type.
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -4188,7 +4188,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:overlapAnchor
+          @attr name com.ibm.iot.android.iotstarterTTS:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -4197,7 +4197,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.ibm.iot.android.iotstarter4:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.ibm.iot.android.iotstarterTTS:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -4205,7 +4205,7 @@ containing a value of this type.
             0x7f01004a
         };
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -4215,7 +4215,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:state_above_anchor
+          @attr name com.ibm.iot.android.iotstarterTTS:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a RippleBackground.
@@ -4224,13 +4224,13 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #RippleBackground_rb_color com.ibm.iot.android.iotstarter4:rb_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #RippleBackground_rb_duration com.ibm.iot.android.iotstarter4:rb_duration}</code></td><td></td></tr>
-           <tr><td><code>{@link #RippleBackground_rb_radius com.ibm.iot.android.iotstarter4:rb_radius}</code></td><td></td></tr>
-           <tr><td><code>{@link #RippleBackground_rb_rippleAmount com.ibm.iot.android.iotstarter4:rb_rippleAmount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RippleBackground_rb_scale com.ibm.iot.android.iotstarter4:rb_scale}</code></td><td></td></tr>
-           <tr><td><code>{@link #RippleBackground_rb_strokeWidth com.ibm.iot.android.iotstarter4:rb_strokeWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #RippleBackground_rb_type com.ibm.iot.android.iotstarter4:rb_type}</code></td><td></td></tr>
+           <tr><td><code>{@link #RippleBackground_rb_color com.ibm.iot.android.iotstarterTTS:rb_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #RippleBackground_rb_duration com.ibm.iot.android.iotstarterTTS:rb_duration}</code></td><td></td></tr>
+           <tr><td><code>{@link #RippleBackground_rb_radius com.ibm.iot.android.iotstarterTTS:rb_radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #RippleBackground_rb_rippleAmount com.ibm.iot.android.iotstarterTTS:rb_rippleAmount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RippleBackground_rb_scale com.ibm.iot.android.iotstarterTTS:rb_scale}</code></td><td></td></tr>
+           <tr><td><code>{@link #RippleBackground_rb_strokeWidth com.ibm.iot.android.iotstarterTTS:rb_strokeWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #RippleBackground_rb_type com.ibm.iot.android.iotstarterTTS:rb_type}</code></td><td></td></tr>
            </table>
            @see #RippleBackground_rb_color
            @see #RippleBackground_rb_duration
@@ -4245,7 +4245,7 @@ containing a value of this type.
             0x7f01004f, 0x7f010050, 0x7f010051
         };
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#rb_color}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#rb_color}
           attribute's value can be found in the {@link #RippleBackground} array.
 
 
@@ -4256,11 +4256,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:rb_color
+          @attr name com.ibm.iot.android.iotstarterTTS:rb_color
         */
         public static final int RippleBackground_rb_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#rb_duration}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#rb_duration}
           attribute's value can be found in the {@link #RippleBackground} array.
 
 
@@ -4270,11 +4270,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:rb_duration
+          @attr name com.ibm.iot.android.iotstarterTTS:rb_duration
         */
         public static final int RippleBackground_rb_duration = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#rb_radius}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#rb_radius}
           attribute's value can be found in the {@link #RippleBackground} array.
 
 
@@ -4286,11 +4286,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:rb_radius
+          @attr name com.ibm.iot.android.iotstarterTTS:rb_radius
         */
         public static final int RippleBackground_rb_radius = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#rb_rippleAmount}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#rb_rippleAmount}
           attribute's value can be found in the {@link #RippleBackground} array.
 
 
@@ -4300,11 +4300,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:rb_rippleAmount
+          @attr name com.ibm.iot.android.iotstarterTTS:rb_rippleAmount
         */
         public static final int RippleBackground_rb_rippleAmount = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#rb_scale}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#rb_scale}
           attribute's value can be found in the {@link #RippleBackground} array.
 
 
@@ -4314,11 +4314,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:rb_scale
+          @attr name com.ibm.iot.android.iotstarterTTS:rb_scale
         */
         public static final int RippleBackground_rb_scale = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#rb_strokeWidth}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#rb_strokeWidth}
           attribute's value can be found in the {@link #RippleBackground} array.
 
 
@@ -4330,11 +4330,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:rb_strokeWidth
+          @attr name com.ibm.iot.android.iotstarterTTS:rb_strokeWidth
         */
         public static final int RippleBackground_rb_strokeWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#rb_type}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#rb_type}
           attribute's value can be found in the {@link #RippleBackground} array.
 
 
@@ -4347,7 +4347,7 @@ containing a value of this type.
 <tr><td><code>fillRipple</code></td><td>0</td><td></td></tr>
 <tr><td><code>strokeRipple</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.ibm.iot.android.iotstarter4:rb_type
+          @attr name com.ibm.iot.android.iotstarterTTS:rb_type
         */
         public static final int RippleBackground_rb_type = 6;
         /** Attributes that can be used with a SearchView.
@@ -4360,17 +4360,17 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.ibm.iot.android.iotstarter4:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.ibm.iot.android.iotstarter4:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.ibm.iot.android.iotstarter4:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.ibm.iot.android.iotstarter4:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.ibm.iot.android.iotstarter4:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.ibm.iot.android.iotstarter4:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.ibm.iot.android.iotstarter4:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.ibm.iot.android.iotstarter4:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.ibm.iot.android.iotstarter4:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.ibm.iot.android.iotstarter4:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.ibm.iot.android.iotstarter4:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.ibm.iot.android.iotstarterTTS:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.ibm.iot.android.iotstarterTTS:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.ibm.iot.android.iotstarterTTS:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.ibm.iot.android.iotstarterTTS:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.ibm.iot.android.iotstarterTTS:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.ibm.iot.android.iotstarterTTS:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.ibm.iot.android.iotstarterTTS:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.ibm.iot.android.iotstarterTTS:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.ibm.iot.android.iotstarterTTS:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.ibm.iot.android.iotstarterTTS:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.ibm.iot.android.iotstarterTTS:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -4419,37 +4419,37 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:closeIcon
+          @attr name com.ibm.iot.android.iotstarterTTS:closeIcon
         */
         public static final int SearchView_closeIcon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:commitIcon
+          @attr name com.ibm.iot.android.iotstarterTTS:commitIcon
         */
         public static final int SearchView_commitIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:goIcon
+          @attr name com.ibm.iot.android.iotstarterTTS:goIcon
         */
         public static final int SearchView_goIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4459,31 +4459,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:iconifiedByDefault
+          @attr name com.ibm.iot.android.iotstarterTTS:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:layout
+          @attr name com.ibm.iot.android.iotstarterTTS:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:queryBackground
+          @attr name com.ibm.iot.android.iotstarterTTS:queryBackground
         */
         public static final int SearchView_queryBackground = 13;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4493,47 +4493,47 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:queryHint
+          @attr name com.ibm.iot.android.iotstarterTTS:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:searchIcon
+          @attr name com.ibm.iot.android.iotstarterTTS:searchIcon
         */
         public static final int SearchView_searchIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:submitBackground
+          @attr name com.ibm.iot.android.iotstarterTTS:submitBackground
         */
         public static final int SearchView_submitBackground = 14;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:suggestionRowLayout
+          @attr name com.ibm.iot.android.iotstarterTTS:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 12;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:voiceIcon
+          @attr name com.ibm.iot.android.iotstarterTTS:voiceIcon
         */
         public static final int SearchView_voiceIcon = 10;
         /** Attributes that can be used with a Spinner.
@@ -4549,10 +4549,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.ibm.iot.android.iotstarter4:disableChildrenWhenDisabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupPromptView com.ibm.iot.android.iotstarter4:popupPromptView}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_prompt com.ibm.iot.android.iotstarter4:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_spinnerMode com.ibm.iot.android.iotstarter4:spinnerMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.ibm.iot.android.iotstarterTTS:disableChildrenWhenDisabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupPromptView com.ibm.iot.android.iotstarterTTS:popupPromptView}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_prompt com.ibm.iot.android.iotstarterTTS:prompt}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_spinnerMode com.ibm.iot.android.iotstarterTTS:spinnerMode}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_background
            @see #Spinner_android_dropDownHorizontalOffset
@@ -4614,7 +4614,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_android_popupBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#disableChildrenWhenDisabled}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#disableChildrenWhenDisabled}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -4624,31 +4624,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:disableChildrenWhenDisabled
+          @attr name com.ibm.iot.android.iotstarterTTS:disableChildrenWhenDisabled
         */
         public static final int Spinner_disableChildrenWhenDisabled = 10;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#popupPromptView}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#popupPromptView}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:popupPromptView
+          @attr name com.ibm.iot.android.iotstarterTTS:popupPromptView
         */
         public static final int Spinner_popupPromptView = 9;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#prompt}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:prompt
+          @attr name com.ibm.iot.android.iotstarterTTS:prompt
         */
         public static final int Spinner_prompt = 7;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#spinnerMode}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#spinnerMode}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -4661,7 +4661,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>dialog</code></td><td>0</td><td></td></tr>
 <tr><td><code>dropdown</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.ibm.iot.android.iotstarter4:spinnerMode
+          @attr name com.ibm.iot.android.iotstarterTTS:spinnerMode
         */
         public static final int Spinner_spinnerMode = 8;
         /** Attributes that can be used with a SwitchCompat.
@@ -4673,13 +4673,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.ibm.iot.android.iotstarter4:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.ibm.iot.android.iotstarter4:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.ibm.iot.android.iotstarter4:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.ibm.iot.android.iotstarter4:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.ibm.iot.android.iotstarter4:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.ibm.iot.android.iotstarter4:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.ibm.iot.android.iotstarter4:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.ibm.iot.android.iotstarterTTS:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.ibm.iot.android.iotstarterTTS:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.ibm.iot.android.iotstarterTTS:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.ibm.iot.android.iotstarterTTS:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.ibm.iot.android.iotstarterTTS:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.ibm.iot.android.iotstarterTTS:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.ibm.iot.android.iotstarterTTS:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -4716,7 +4716,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4726,11 +4726,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:showText
+          @attr name com.ibm.iot.android.iotstarterTTS:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4740,11 +4740,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:splitTrack
+          @attr name com.ibm.iot.android.iotstarterTTS:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4756,11 +4756,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:switchMinWidth
+          @attr name com.ibm.iot.android.iotstarterTTS:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4772,21 +4772,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:switchPadding
+          @attr name com.ibm.iot.android.iotstarterTTS:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:switchTextAppearance
+          @attr name com.ibm.iot.android.iotstarterTTS:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4798,17 +4798,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:thumbTextPadding
+          @attr name com.ibm.iot.android.iotstarterTTS:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#track}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:track
+          @attr name com.ibm.iot.android.iotstarterTTS:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a SwitchCompatTextAppearance.
@@ -4819,7 +4819,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SwitchCompatTextAppearance_android_textColor android:textColor}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompatTextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompatTextAppearance_textAllCaps com.ibm.iot.android.iotstarter4:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompatTextAppearance_textAllCaps com.ibm.iot.android.iotstarterTTS:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #SwitchCompatTextAppearance_android_textColor
            @see #SwitchCompatTextAppearance_android_textSize
@@ -4841,14 +4841,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompatTextAppearance_android_textSize = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#textAllCaps}
           attribute's value can be found in the {@link #SwitchCompatTextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.ibm.iot.android.iotstarter4:textAllCaps
+          @attr name com.ibm.iot.android.iotstarterTTS:textAllCaps
         */
         public static final int SwitchCompatTextAppearance_textAllCaps = 2;
         /** Attributes that can be used with a Theme.
@@ -4857,90 +4857,90 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider com.ibm.iot.android.iotstarter4:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground com.ibm.iot.android.iotstarter4:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme com.ibm.iot.android.iotstarter4:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize com.ibm.iot.android.iotstarter4:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle com.ibm.iot.android.iotstarter4:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle com.ibm.iot.android.iotstarter4:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.ibm.iot.android.iotstarter4:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle com.ibm.iot.android.iotstarter4:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.ibm.iot.android.iotstarter4:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme com.ibm.iot.android.iotstarter4:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.ibm.iot.android.iotstarter4:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle com.ibm.iot.android.iotstarter4:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle com.ibm.iot.android.iotstarter4:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.ibm.iot.android.iotstarter4:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor com.ibm.iot.android.iotstarter4:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground com.ibm.iot.android.iotstarter4:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.ibm.iot.android.iotstarter4:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.ibm.iot.android.iotstarter4:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.ibm.iot.android.iotstarter4:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable com.ibm.iot.android.iotstarter4:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable com.ibm.iot.android.iotstarter4:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable com.ibm.iot.android.iotstarter4:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.ibm.iot.android.iotstarter4:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.ibm.iot.android.iotstarter4:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable com.ibm.iot.android.iotstarter4:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground com.ibm.iot.android.iotstarter4:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle com.ibm.iot.android.iotstarter4:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.ibm.iot.android.iotstarter4:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.ibm.iot.android.iotstarter4:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.ibm.iot.android.iotstarter4:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle com.ibm.iot.android.iotstarter4:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarDivider com.ibm.iot.android.iotstarterTTS:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground com.ibm.iot.android.iotstarterTTS:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme com.ibm.iot.android.iotstarterTTS:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSize com.ibm.iot.android.iotstarterTTS:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSplitStyle com.ibm.iot.android.iotstarterTTS:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle com.ibm.iot.android.iotstarterTTS:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.ibm.iot.android.iotstarterTTS:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle com.ibm.iot.android.iotstarterTTS:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.ibm.iot.android.iotstarterTTS:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme com.ibm.iot.android.iotstarterTTS:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.ibm.iot.android.iotstarterTTS:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionButtonStyle com.ibm.iot.android.iotstarterTTS:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle com.ibm.iot.android.iotstarterTTS:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.ibm.iot.android.iotstarterTTS:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor com.ibm.iot.android.iotstarterTTS:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground com.ibm.iot.android.iotstarterTTS:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.ibm.iot.android.iotstarterTTS:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.ibm.iot.android.iotstarterTTS:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.ibm.iot.android.iotstarterTTS:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable com.ibm.iot.android.iotstarterTTS:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable com.ibm.iot.android.iotstarterTTS:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable com.ibm.iot.android.iotstarterTTS:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.ibm.iot.android.iotstarterTTS:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.ibm.iot.android.iotstarterTTS:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable com.ibm.iot.android.iotstarterTTS:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground com.ibm.iot.android.iotstarterTTS:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle com.ibm.iot.android.iotstarterTTS:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.ibm.iot.android.iotstarterTTS:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.ibm.iot.android.iotstarterTTS:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.ibm.iot.android.iotstarterTTS:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle com.ibm.iot.android.iotstarterTTS:activityChooserViewStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.ibm.iot.android.iotstarter4:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle com.ibm.iot.android.iotstarter4:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorAccent com.ibm.iot.android.iotstarter4:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal com.ibm.iot.android.iotstarter4:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated com.ibm.iot.android.iotstarter4:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight com.ibm.iot.android.iotstarter4:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal com.ibm.iot.android.iotstarter4:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary com.ibm.iot.android.iotstarter4:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark com.ibm.iot.android.iotstarter4:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.ibm.iot.android.iotstarter4:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal com.ibm.iot.android.iotstarter4:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical com.ibm.iot.android.iotstarter4:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle com.ibm.iot.android.iotstarter4:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.ibm.iot.android.iotstarter4:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground com.ibm.iot.android.iotstarter4:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextColor com.ibm.iot.android.iotstarter4:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator com.ibm.iot.android.iotstarter4:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.ibm.iot.android.iotstarter4:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle com.ibm.iot.android.iotstarter4:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight com.ibm.iot.android.iotstarter4:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.ibm.iot.android.iotstarter4:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.ibm.iot.android.iotstarter4:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.ibm.iot.android.iotstarter4:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.ibm.iot.android.iotstarter4:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelBackground com.ibm.iot.android.iotstarter4:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme com.ibm.iot.android.iotstarter4:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth com.ibm.iot.android.iotstarter4:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle com.ibm.iot.android.iotstarter4:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle com.ibm.iot.android.iotstarter4:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle com.ibm.iot.android.iotstarter4:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground com.ibm.iot.android.iotstarter4:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.ibm.iot.android.iotstarter4:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.ibm.iot.android.iotstarter4:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle com.ibm.iot.android.iotstarter4:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_switchStyle com.ibm.iot.android.iotstarter4:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.ibm.iot.android.iotstarter4:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem com.ibm.iot.android.iotstarter4:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.ibm.iot.android.iotstarter4:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.ibm.iot.android.iotstarter4:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.ibm.iot.android.iotstarter4:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.ibm.iot.android.iotstarter4:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl com.ibm.iot.android.iotstarter4:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.ibm.iot.android.iotstarter4:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle com.ibm.iot.android.iotstarter4:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar com.ibm.iot.android.iotstarter4:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay com.ibm.iot.android.iotstarter4:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay com.ibm.iot.android.iotstarter4:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.ibm.iot.android.iotstarter4:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.ibm.iot.android.iotstarter4:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.ibm.iot.android.iotstarter4:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.ibm.iot.android.iotstarter4:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.ibm.iot.android.iotstarterTTS:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarStyle com.ibm.iot.android.iotstarterTTS:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorAccent com.ibm.iot.android.iotstarterTTS:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal com.ibm.iot.android.iotstarterTTS:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated com.ibm.iot.android.iotstarterTTS:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight com.ibm.iot.android.iotstarterTTS:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal com.ibm.iot.android.iotstarterTTS:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary com.ibm.iot.android.iotstarterTTS:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark com.ibm.iot.android.iotstarterTTS:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.ibm.iot.android.iotstarterTTS:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal com.ibm.iot.android.iotstarterTTS:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical com.ibm.iot.android.iotstarterTTS:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle com.ibm.iot.android.iotstarterTTS:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.ibm.iot.android.iotstarterTTS:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground com.ibm.iot.android.iotstarterTTS:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextColor com.ibm.iot.android.iotstarterTTS:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator com.ibm.iot.android.iotstarterTTS:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.ibm.iot.android.iotstarterTTS:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle com.ibm.iot.android.iotstarterTTS:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight com.ibm.iot.android.iotstarterTTS:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.ibm.iot.android.iotstarterTTS:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.ibm.iot.android.iotstarterTTS:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.ibm.iot.android.iotstarterTTS:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.ibm.iot.android.iotstarterTTS:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelBackground com.ibm.iot.android.iotstarterTTS:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme com.ibm.iot.android.iotstarterTTS:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth com.ibm.iot.android.iotstarterTTS:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle com.ibm.iot.android.iotstarterTTS:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle com.ibm.iot.android.iotstarterTTS:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle com.ibm.iot.android.iotstarterTTS:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground com.ibm.iot.android.iotstarterTTS:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.ibm.iot.android.iotstarterTTS:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.ibm.iot.android.iotstarterTTS:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle com.ibm.iot.android.iotstarterTTS:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_switchStyle com.ibm.iot.android.iotstarterTTS:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.ibm.iot.android.iotstarterTTS:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem com.ibm.iot.android.iotstarterTTS:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.ibm.iot.android.iotstarterTTS:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.ibm.iot.android.iotstarterTTS:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.ibm.iot.android.iotstarterTTS:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.ibm.iot.android.iotstarterTTS:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl com.ibm.iot.android.iotstarterTTS:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.ibm.iot.android.iotstarterTTS:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle com.ibm.iot.android.iotstarterTTS:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar com.ibm.iot.android.iotstarterTTS:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBarOverlay com.ibm.iot.android.iotstarterTTS:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionModeOverlay com.ibm.iot.android.iotstarterTTS:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.ibm.iot.android.iotstarterTTS:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.ibm.iot.android.iotstarterTTS:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.ibm.iot.android.iotstarterTTS:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.ibm.iot.android.iotstarterTTS:windowFixedWidthMinor}</code></td><td></td></tr>
            </table>
            @see #Theme_actionBarDivider
            @see #Theme_actionBarItemBackground
@@ -5051,37 +5051,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100b6, 0x7f0100b7, 0x7f0100b8, 0x7f0100b9
         };
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionBarDivider
+          @attr name com.ibm.iot.android.iotstarterTTS:actionBarDivider
         */
         public static final int Theme_actionBarDivider = 20;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionBarItemBackground
+          @attr name com.ibm.iot.android.iotstarterTTS:actionBarItemBackground
         */
         public static final int Theme_actionBarItemBackground = 21;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionBarPopupTheme
+          @attr name com.ibm.iot.android.iotstarterTTS:actionBarPopupTheme
         */
         public static final int Theme_actionBarPopupTheme = 14;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5101,111 +5101,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.ibm.iot.android.iotstarter4:actionBarSize
+          @attr name com.ibm.iot.android.iotstarterTTS:actionBarSize
         */
         public static final int Theme_actionBarSize = 19;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionBarSplitStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:actionBarSplitStyle
         */
         public static final int Theme_actionBarSplitStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionBarStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:actionBarStyle
         */
         public static final int Theme_actionBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionBarTabBarStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:actionBarTabBarStyle
         */
         public static final int Theme_actionBarTabBarStyle = 10;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionBarTabStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:actionBarTabStyle
         */
         public static final int Theme_actionBarTabStyle = 9;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionBarTabTextStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:actionBarTabTextStyle
         */
         public static final int Theme_actionBarTabTextStyle = 11;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionBarTheme
+          @attr name com.ibm.iot.android.iotstarterTTS:actionBarTheme
         */
         public static final int Theme_actionBarTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionBarWidgetTheme
+          @attr name com.ibm.iot.android.iotstarterTTS:actionBarWidgetTheme
         */
         public static final int Theme_actionBarWidgetTheme = 18;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionButtonStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:actionButtonStyle
         */
         public static final int Theme_actionButtonStyle = 44;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionDropDownStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionMenuTextAppearance
+          @attr name com.ibm.iot.android.iotstarterTTS:actionMenuTextAppearance
         */
         public static final int Theme_actionMenuTextAppearance = 22;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5213,167 +5213,167 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionMenuTextColor
+          @attr name com.ibm.iot.android.iotstarterTTS:actionMenuTextColor
         */
         public static final int Theme_actionMenuTextColor = 23;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionModeBackground
+          @attr name com.ibm.iot.android.iotstarterTTS:actionModeBackground
         */
         public static final int Theme_actionModeBackground = 26;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionModeCloseButtonStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:actionModeCloseButtonStyle
         */
         public static final int Theme_actionModeCloseButtonStyle = 25;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionModeCloseDrawable
+          @attr name com.ibm.iot.android.iotstarterTTS:actionModeCloseDrawable
         */
         public static final int Theme_actionModeCloseDrawable = 28;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionModeCopyDrawable
+          @attr name com.ibm.iot.android.iotstarterTTS:actionModeCopyDrawable
         */
         public static final int Theme_actionModeCopyDrawable = 30;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionModeCutDrawable
+          @attr name com.ibm.iot.android.iotstarterTTS:actionModeCutDrawable
         */
         public static final int Theme_actionModeCutDrawable = 29;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionModeFindDrawable
+          @attr name com.ibm.iot.android.iotstarterTTS:actionModeFindDrawable
         */
         public static final int Theme_actionModeFindDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionModePasteDrawable
+          @attr name com.ibm.iot.android.iotstarterTTS:actionModePasteDrawable
         */
         public static final int Theme_actionModePasteDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionModePopupWindowStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:actionModePopupWindowStyle
         */
         public static final int Theme_actionModePopupWindowStyle = 36;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionModeSelectAllDrawable
+          @attr name com.ibm.iot.android.iotstarterTTS:actionModeSelectAllDrawable
         */
         public static final int Theme_actionModeSelectAllDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionModeShareDrawable
+          @attr name com.ibm.iot.android.iotstarterTTS:actionModeShareDrawable
         */
         public static final int Theme_actionModeShareDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionModeSplitBackground
+          @attr name com.ibm.iot.android.iotstarterTTS:actionModeSplitBackground
         */
         public static final int Theme_actionModeSplitBackground = 27;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionModeStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:actionModeStyle
         */
         public static final int Theme_actionModeStyle = 24;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionModeWebSearchDrawable
+          @attr name com.ibm.iot.android.iotstarterTTS:actionModeWebSearchDrawable
         */
         public static final int Theme_actionModeWebSearchDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionOverflowButtonStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:actionOverflowButtonStyle
         */
         public static final int Theme_actionOverflowButtonStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:actionOverflowMenuStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:actionOverflowMenuStyle
         */
         public static final int Theme_actionOverflowMenuStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:activityChooserViewStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:activityChooserViewStyle
         */
         public static final int Theme_activityChooserViewStyle = 51;
         /**
@@ -5389,27 +5389,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:buttonBarButtonStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:buttonBarButtonStyle
         */
         public static final int Theme_buttonBarButtonStyle = 46;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:buttonBarStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:buttonBarStyle
         */
         public static final int Theme_buttonBarStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#colorAccent}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5420,11 +5420,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:colorAccent
+          @attr name com.ibm.iot.android.iotstarterTTS:colorAccent
         */
         public static final int Theme_colorAccent = 78;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5435,11 +5435,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:colorButtonNormal
+          @attr name com.ibm.iot.android.iotstarterTTS:colorButtonNormal
         */
         public static final int Theme_colorButtonNormal = 82;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5450,11 +5450,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:colorControlActivated
+          @attr name com.ibm.iot.android.iotstarterTTS:colorControlActivated
         */
         public static final int Theme_colorControlActivated = 80;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5465,11 +5465,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:colorControlHighlight
+          @attr name com.ibm.iot.android.iotstarterTTS:colorControlHighlight
         */
         public static final int Theme_colorControlHighlight = 81;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5480,11 +5480,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:colorControlNormal
+          @attr name com.ibm.iot.android.iotstarterTTS:colorControlNormal
         */
         public static final int Theme_colorControlNormal = 79;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#colorPrimary}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5495,11 +5495,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:colorPrimary
+          @attr name com.ibm.iot.android.iotstarterTTS:colorPrimary
         */
         public static final int Theme_colorPrimary = 76;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5510,11 +5510,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:colorPrimaryDark
+          @attr name com.ibm.iot.android.iotstarterTTS:colorPrimaryDark
         */
         public static final int Theme_colorPrimaryDark = 77;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5525,41 +5525,41 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:colorSwitchThumbNormal
+          @attr name com.ibm.iot.android.iotstarterTTS:colorSwitchThumbNormal
         */
         public static final int Theme_colorSwitchThumbNormal = 83;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:dividerHorizontal
+          @attr name com.ibm.iot.android.iotstarterTTS:dividerHorizontal
         */
         public static final int Theme_dividerHorizontal = 50;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#dividerVertical}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:dividerVertical
+          @attr name com.ibm.iot.android.iotstarterTTS:dividerVertical
         */
         public static final int Theme_dividerVertical = 49;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:dropDownListViewStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:dropDownListViewStyle
         */
         public static final int Theme_dropDownListViewStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5571,21 +5571,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:dropdownListPreferredItemHeight
+          @attr name com.ibm.iot.android.iotstarterTTS:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 40;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#editTextBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:editTextBackground
+          @attr name com.ibm.iot.android.iotstarterTTS:editTextBackground
         */
         public static final int Theme_editTextBackground = 57;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5593,41 +5593,41 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:editTextColor
+          @attr name com.ibm.iot.android.iotstarterTTS:editTextColor
         */
         public static final int Theme_editTextColor = 56;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:homeAsUpIndicator
+          @attr name com.ibm.iot.android.iotstarterTTS:homeAsUpIndicator
         */
         public static final int Theme_homeAsUpIndicator = 43;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:listChoiceBackgroundIndicator
+          @attr name com.ibm.iot.android.iotstarterTTS:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 75;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:listPopupWindowStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:listPopupWindowStyle
         */
         public static final int Theme_listPopupWindowStyle = 69;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5639,11 +5639,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:listPreferredItemHeight
+          @attr name com.ibm.iot.android.iotstarterTTS:listPreferredItemHeight
         */
         public static final int Theme_listPreferredItemHeight = 63;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5655,11 +5655,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:listPreferredItemHeightLarge
+          @attr name com.ibm.iot.android.iotstarterTTS:listPreferredItemHeightLarge
         */
         public static final int Theme_listPreferredItemHeightLarge = 65;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5671,11 +5671,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:listPreferredItemHeightSmall
+          @attr name com.ibm.iot.android.iotstarterTTS:listPreferredItemHeightSmall
         */
         public static final int Theme_listPreferredItemHeightSmall = 64;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5687,11 +5687,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:listPreferredItemPaddingLeft
+          @attr name com.ibm.iot.android.iotstarterTTS:listPreferredItemPaddingLeft
         */
         public static final int Theme_listPreferredItemPaddingLeft = 66;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5703,31 +5703,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:listPreferredItemPaddingRight
+          @attr name com.ibm.iot.android.iotstarterTTS:listPreferredItemPaddingRight
         */
         public static final int Theme_listPreferredItemPaddingRight = 67;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:panelBackground
+          @attr name com.ibm.iot.android.iotstarterTTS:panelBackground
         */
         public static final int Theme_panelBackground = 72;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:panelMenuListTheme
+          @attr name com.ibm.iot.android.iotstarterTTS:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 74;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5739,151 +5739,151 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:panelMenuListWidth
+          @attr name com.ibm.iot.android.iotstarterTTS:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 73;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:popupMenuStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:popupWindowStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:popupWindowStyle
         */
         public static final int Theme_popupWindowStyle = 55;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:searchViewStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:searchViewStyle
         */
         public static final int Theme_searchViewStyle = 62;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:selectableItemBackground
+          @attr name com.ibm.iot.android.iotstarterTTS:selectableItemBackground
         */
         public static final int Theme_selectableItemBackground = 47;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:selectableItemBackgroundBorderless
+          @attr name com.ibm.iot.android.iotstarterTTS:selectableItemBackgroundBorderless
         */
         public static final int Theme_selectableItemBackgroundBorderless = 48;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:spinnerDropDownItemStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:spinnerDropDownItemStyle
         */
         public static final int Theme_spinnerDropDownItemStyle = 42;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:spinnerStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:spinnerStyle
         */
         public static final int Theme_spinnerStyle = 41;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:switchStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:switchStyle
         */
         public static final int Theme_switchStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:textAppearanceLargePopupMenu
+          @attr name com.ibm.iot.android.iotstarterTTS:textAppearanceLargePopupMenu
         */
         public static final int Theme_textAppearanceLargePopupMenu = 37;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:textAppearanceListItem
+          @attr name com.ibm.iot.android.iotstarterTTS:textAppearanceListItem
         */
         public static final int Theme_textAppearanceListItem = 70;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:textAppearanceListItemSmall
+          @attr name com.ibm.iot.android.iotstarterTTS:textAppearanceListItemSmall
         */
         public static final int Theme_textAppearanceListItemSmall = 71;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:textAppearanceSearchResultSubtitle
+          @attr name com.ibm.iot.android.iotstarterTTS:textAppearanceSearchResultSubtitle
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:textAppearanceSearchResultTitle
+          @attr name com.ibm.iot.android.iotstarterTTS:textAppearanceSearchResultTitle
         */
         public static final int Theme_textAppearanceSearchResultTitle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:textAppearanceSmallPopupMenu
+          @attr name com.ibm.iot.android.iotstarterTTS:textAppearanceSmallPopupMenu
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 38;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5891,31 +5891,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:textColorSearchUrl
+          @attr name com.ibm.iot.android.iotstarterTTS:textColorSearchUrl
         */
         public static final int Theme_textColorSearchUrl = 61;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:toolbarNavigationButtonStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:toolbarNavigationButtonStyle
         */
         public static final int Theme_toolbarNavigationButtonStyle = 53;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:toolbarStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:toolbarStyle
         */
         public static final int Theme_toolbarStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5925,11 +5925,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:windowActionBar
+          @attr name com.ibm.iot.android.iotstarterTTS:windowActionBar
         */
         public static final int Theme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5939,11 +5939,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:windowActionBarOverlay
+          @attr name com.ibm.iot.android.iotstarterTTS:windowActionBarOverlay
         */
         public static final int Theme_windowActionBarOverlay = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5953,11 +5953,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:windowActionModeOverlay
+          @attr name com.ibm.iot.android.iotstarterTTS:windowActionModeOverlay
         */
         public static final int Theme_windowActionModeOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5972,11 +5972,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:windowFixedHeightMajor
+          @attr name com.ibm.iot.android.iotstarterTTS:windowFixedHeightMajor
         */
         public static final int Theme_windowFixedHeightMajor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5991,11 +5991,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:windowFixedHeightMinor
+          @attr name com.ibm.iot.android.iotstarterTTS:windowFixedHeightMinor
         */
         public static final int Theme_windowFixedHeightMinor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6010,11 +6010,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:windowFixedWidthMajor
+          @attr name com.ibm.iot.android.iotstarterTTS:windowFixedWidthMajor
         */
         public static final int Theme_windowFixedWidthMajor = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6029,7 +6029,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:windowFixedWidthMinor
+          @attr name com.ibm.iot.android.iotstarterTTS:windowFixedWidthMinor
         */
         public static final int Theme_windowFixedWidthMinor = 7;
         /** Attributes that can be used with a Toolbar.
@@ -6040,26 +6040,26 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.ibm.iot.android.iotstarter4:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.ibm.iot.android.iotstarter4:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.ibm.iot.android.iotstarter4:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.ibm.iot.android.iotstarter4:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.ibm.iot.android.iotstarter4:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.ibm.iot.android.iotstarter4:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.ibm.iot.android.iotstarter4:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.ibm.iot.android.iotstarter4:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.ibm.iot.android.iotstarter4:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.ibm.iot.android.iotstarter4:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.ibm.iot.android.iotstarter4:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.ibm.iot.android.iotstarter4:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_theme com.ibm.iot.android.iotstarter4:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.ibm.iot.android.iotstarter4:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.ibm.iot.android.iotstarter4:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.ibm.iot.android.iotstarter4:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.ibm.iot.android.iotstarter4:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.ibm.iot.android.iotstarter4:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.ibm.iot.android.iotstarter4:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.ibm.iot.android.iotstarter4:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.ibm.iot.android.iotstarterTTS:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.ibm.iot.android.iotstarterTTS:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.ibm.iot.android.iotstarterTTS:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.ibm.iot.android.iotstarterTTS:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.ibm.iot.android.iotstarterTTS:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.ibm.iot.android.iotstarterTTS:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.ibm.iot.android.iotstarterTTS:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.ibm.iot.android.iotstarterTTS:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.ibm.iot.android.iotstarterTTS:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.ibm.iot.android.iotstarterTTS:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.ibm.iot.android.iotstarterTTS:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.ibm.iot.android.iotstarterTTS:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_theme com.ibm.iot.android.iotstarterTTS:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.ibm.iot.android.iotstarterTTS:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.ibm.iot.android.iotstarterTTS:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.ibm.iot.android.iotstarterTTS:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.ibm.iot.android.iotstarterTTS:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.ibm.iot.android.iotstarterTTS:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.ibm.iot.android.iotstarterTTS:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.ibm.iot.android.iotstarterTTS:titleTextAppearance}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -6105,7 +6105,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6115,21 +6115,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:collapseContentDescription
+          @attr name com.ibm.iot.android.iotstarterTTS:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:collapseIcon
+          @attr name com.ibm.iot.android.iotstarterTTS:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 18;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6141,11 +6141,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:contentInsetEnd
+          @attr name com.ibm.iot.android.iotstarterTTS:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6157,11 +6157,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:contentInsetLeft
+          @attr name com.ibm.iot.android.iotstarterTTS:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 6;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6173,11 +6173,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:contentInsetRight
+          @attr name com.ibm.iot.android.iotstarterTTS:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 7;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6189,11 +6189,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:contentInsetStart
+          @attr name com.ibm.iot.android.iotstarterTTS:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6205,11 +6205,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:maxButtonHeight
+          @attr name com.ibm.iot.android.iotstarterTTS:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 16;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6219,31 +6219,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:navigationContentDescription
+          @attr name com.ibm.iot.android.iotstarterTTS:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:navigationIcon
+          @attr name com.ibm.iot.android.iotstarterTTS:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:popupTheme
+          @attr name com.ibm.iot.android.iotstarterTTS:popupTheme
         */
         public static final int Toolbar_popupTheme = 8;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6253,31 +6253,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:subtitle
+          @attr name com.ibm.iot.android.iotstarterTTS:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:subtitleTextAppearance
+          @attr name com.ibm.iot.android.iotstarterTTS:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#theme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:theme
+          @attr name com.ibm.iot.android.iotstarterTTS:theme
         */
         public static final int Toolbar_theme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#title}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6287,11 +6287,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:title
+          @attr name com.ibm.iot.android.iotstarterTTS:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6303,11 +6303,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:titleMarginBottom
+          @attr name com.ibm.iot.android.iotstarterTTS:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 15;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6319,11 +6319,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:titleMarginEnd
+          @attr name com.ibm.iot.android.iotstarterTTS:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6335,11 +6335,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:titleMarginStart
+          @attr name com.ibm.iot.android.iotstarterTTS:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 12;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6351,11 +6351,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:titleMarginTop
+          @attr name com.ibm.iot.android.iotstarterTTS:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 14;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6367,17 +6367,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:titleMargins
+          @attr name com.ibm.iot.android.iotstarterTTS:titleMargins
         */
         public static final int Toolbar_titleMargins = 11;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:titleTextAppearance
+          @attr name com.ibm.iot.android.iotstarterTTS:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 9;
         /** Attributes that can be used with a View.
@@ -6387,8 +6387,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.ibm.iot.android.iotstarter4:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.ibm.iot.android.iotstarter4:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.ibm.iot.android.iotstarterTTS:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.ibm.iot.android.iotstarterTTS:paddingStart}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_paddingEnd
@@ -6404,7 +6404,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int View_android_focusable = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -6416,11 +6416,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:paddingEnd
+          @attr name com.ibm.iot.android.iotstarterTTS:paddingEnd
         */
         public static final int View_paddingEnd = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -6432,7 +6432,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:paddingStart
+          @attr name com.ibm.iot.android.iotstarterTTS:paddingStart
         */
         public static final int View_paddingStart = 1;
         /** Attributes that can be used with a ViewStubCompat.
@@ -6476,10 +6476,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_appTheme com.ibm.iot.android.iotstarter4:appTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_environment com.ibm.iot.android.iotstarter4:environment}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.ibm.iot.android.iotstarter4:fragmentMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.ibm.iot.android.iotstarter4:fragmentStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_appTheme com.ibm.iot.android.iotstarterTTS:appTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_environment com.ibm.iot.android.iotstarterTTS:environment}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.ibm.iot.android.iotstarterTTS:fragmentMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.ibm.iot.android.iotstarterTTS:fragmentStyle}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentOptions_appTheme
            @see #WalletFragmentOptions_environment
@@ -6490,7 +6490,7 @@ containing a value of this type.
             0x7f0100c9, 0x7f0100ca, 0x7f0100cb, 0x7f0100cc
         };
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#appTheme}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#appTheme}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -6503,11 +6503,11 @@ containing a value of this type.
 <tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
 <tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.ibm.iot.android.iotstarter4:appTheme
+          @attr name com.ibm.iot.android.iotstarterTTS:appTheme
         */
         public static final int WalletFragmentOptions_appTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#environment}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#environment}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -6521,11 +6521,11 @@ containing a value of this type.
 <tr><td><code>sandbox</code></td><td>0</td><td></td></tr>
 <tr><td><code>strict_sandbox</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.ibm.iot.android.iotstarter4:environment
+          @attr name com.ibm.iot.android.iotstarterTTS:environment
         */
         public static final int WalletFragmentOptions_environment = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#fragmentMode}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#fragmentMode}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -6538,17 +6538,17 @@ containing a value of this type.
 <tr><td><code>buyButton</code></td><td>1</td><td></td></tr>
 <tr><td><code>selectionDetails</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.ibm.iot.android.iotstarter4:fragmentMode
+          @attr name com.ibm.iot.android.iotstarterTTS:fragmentMode
         */
         public static final int WalletFragmentOptions_fragmentMode = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#fragmentStyle}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#fragmentStyle}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:fragmentStyle
+          @attr name com.ibm.iot.android.iotstarterTTS:fragmentStyle
         */
         public static final int WalletFragmentOptions_fragmentStyle = 2;
         /** Attributes that can be used with a WalletFragmentStyle.
@@ -6557,17 +6557,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.ibm.iot.android.iotstarter4:buyButtonAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.ibm.iot.android.iotstarter4:buyButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.ibm.iot.android.iotstarter4:buyButtonText}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.ibm.iot.android.iotstarter4:buyButtonWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.ibm.iot.android.iotstarter4:maskedWalletDetailsBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.ibm.iot.android.iotstarter4:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.ibm.iot.android.iotstarter4:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.ibm.iot.android.iotstarter4:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.ibm.iot.android.iotstarter4:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.ibm.iot.android.iotstarter4:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.ibm.iot.android.iotstarter4:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.ibm.iot.android.iotstarterTTS:buyButtonAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.ibm.iot.android.iotstarterTTS:buyButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.ibm.iot.android.iotstarterTTS:buyButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.ibm.iot.android.iotstarterTTS:buyButtonWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.ibm.iot.android.iotstarterTTS:maskedWalletDetailsBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.ibm.iot.android.iotstarterTTS:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.ibm.iot.android.iotstarterTTS:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.ibm.iot.android.iotstarterTTS:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.ibm.iot.android.iotstarterTTS:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.ibm.iot.android.iotstarterTTS:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.ibm.iot.android.iotstarterTTS:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentStyle_buyButtonAppearance
            @see #WalletFragmentStyle_buyButtonHeight
@@ -6587,7 +6587,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100d5, 0x7f0100d6, 0x7f0100d7
         };
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#buyButtonAppearance}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#buyButtonAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6601,11 +6601,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>grayscale</code></td><td>2</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name com.ibm.iot.android.iotstarter4:buyButtonAppearance
+          @attr name com.ibm.iot.android.iotstarterTTS:buyButtonAppearance
         */
         public static final int WalletFragmentStyle_buyButtonAppearance = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#buyButtonHeight}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#buyButtonHeight}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6626,11 +6626,11 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.ibm.iot.android.iotstarter4:buyButtonHeight
+          @attr name com.ibm.iot.android.iotstarterTTS:buyButtonHeight
         */
         public static final int WalletFragmentStyle_buyButtonHeight = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#buyButtonText}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#buyButtonText}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6645,11 +6645,11 @@ containing a value of this type.
 <tr><td><code>book_now</code></td><td>3</td><td></td></tr>
 <tr><td><code>donate_with_google</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.ibm.iot.android.iotstarter4:buyButtonText
+          @attr name com.ibm.iot.android.iotstarterTTS:buyButtonText
         */
         public static final int WalletFragmentStyle_buyButtonText = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#buyButtonWidth}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#buyButtonWidth}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6670,11 +6670,11 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.ibm.iot.android.iotstarter4:buyButtonWidth
+          @attr name com.ibm.iot.android.iotstarterTTS:buyButtonWidth
         */
         public static final int WalletFragmentStyle_buyButtonWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#maskedWalletDetailsBackground}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#maskedWalletDetailsBackground}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6682,11 +6682,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:maskedWalletDetailsBackground
+          @attr name com.ibm.iot.android.iotstarterTTS:maskedWalletDetailsBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsBackground = 6;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#maskedWalletDetailsButtonBackground}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#maskedWalletDetailsButtonBackground}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6694,31 +6694,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:maskedWalletDetailsButtonBackground
+          @attr name com.ibm.iot.android.iotstarterTTS:maskedWalletDetailsButtonBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonBackground = 8;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#maskedWalletDetailsButtonTextAppearance}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#maskedWalletDetailsButtonTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:maskedWalletDetailsButtonTextAppearance
+          @attr name com.ibm.iot.android.iotstarterTTS:maskedWalletDetailsButtonTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#maskedWalletDetailsHeaderTextAppearance}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#maskedWalletDetailsHeaderTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:maskedWalletDetailsHeaderTextAppearance
+          @attr name com.ibm.iot.android.iotstarterTTS:maskedWalletDetailsHeaderTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#maskedWalletDetailsLogoImageType}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#maskedWalletDetailsLogoImageType}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6731,11 +6731,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>classic</code></td><td>1</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.ibm.iot.android.iotstarter4:maskedWalletDetailsLogoImageType
+          @attr name com.ibm.iot.android.iotstarterTTS:maskedWalletDetailsLogoImageType
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoImageType = 10;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#maskedWalletDetailsLogoTextColor}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#maskedWalletDetailsLogoTextColor}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6746,17 +6746,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ibm.iot.android.iotstarter4:maskedWalletDetailsLogoTextColor
+          @attr name com.ibm.iot.android.iotstarterTTS:maskedWalletDetailsLogoTextColor
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoTextColor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarter4.R.attr#maskedWalletDetailsTextAppearance}
+          <p>This symbol is the offset where the {@link com.ibm.iot.android.iotstarterTTS.R.attr#maskedWalletDetailsTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ibm.iot.android.iotstarter4:maskedWalletDetailsTextAppearance
+          @attr name com.ibm.iot.android.iotstarterTTS:maskedWalletDetailsTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsTextAppearance = 4;
     };

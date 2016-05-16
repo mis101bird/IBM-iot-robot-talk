@@ -275,7 +275,7 @@
     <string name="action_settings">Settings</string>
     <string name="activate_button">Activate Sensor</string>
     <string name="alert_dialog_title">Received Alert</string>
-    <string name="app_name">IoT iFly TTS</string>
+    <string name="app_name">IoT Secretary</string>
     <string name="audio">Audio</string>
     <string name="auth_token_hint">Auth Token</string>
     <string name="auth_token_setting">Auth Token: </string>
