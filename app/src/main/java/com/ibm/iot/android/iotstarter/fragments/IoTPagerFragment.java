@@ -584,7 +584,7 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        if(!text.equals(" ")){
+        if(!text.equals(" ")&&!text.equals("")){
             displayStatus("get "+text);
             //send MQTT message
             try {
