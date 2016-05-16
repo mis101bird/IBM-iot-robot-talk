@@ -24,6 +24,9 @@ import com.ibm.iot.android.iotstarter.activities.ProfilesActivity;
 import com.ibm.iot.android.iotstarter.fragments.IoTPagerFragment;
 import com.ibm.iot.android.iotstarter.fragments.LogPagerFragment;
 import com.ibm.iot.android.iotstarter.fragments.LoginPagerFragment;
+import com.iflytek.cloud.SpeechConstant;
+import com.iflytek.cloud.SpeechSynthesizer;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -39,10 +42,22 @@ public class MessageConductor {
     private static MessageConductor instance;
     private final Context context;
     private final IoTStarterApplication app;
+    private SpeechSynthesizer mTt;
+
 
     private MessageConductor(Context context) {
         this.context = context;
         app = (IoTStarterApplication) context.getApplicationContext();
+        mTt= SpeechSynthesizer.createSynthesizer(context, null);
+        mTt.setParameter(SpeechConstant.VOICE_NAME, "xiaoyan");
+        mTt.setParameter(SpeechConstant.SPEED,"50");
+        mTt.setParameter(SpeechConstant.VOLUME, "80");
+        mTt.setParameter(SpeechConstant.ENGINE_TYPE, SpeechConstant.TYPE_CLOUD);
+
+    }
+
+    public SpeechSynthesizer getmTt() {
+        return mTt;
     }
 
     public static MessageConductor getInstance(Context context) {
@@ -61,10 +76,13 @@ public class MessageConductor {
      */
     public void steerMessage(String payload, String topic) throws JSONException {
         Log.d(TAG, ".steerMessage() entered");
-        JSONObject top = new JSONObject(payload);
-        JSONObject d = top.getJSONObject("d");
+
+
+
 
         if (topic.contains(Constants.COLOR_EVENT)) {
+            JSONObject top = new JSONObject(payload);
+            JSONObject d = top.getJSONObject("d");
             Log.d(TAG, "Color Event");
             int r = d.getInt("r");
             int g = d.getInt("g");
@@ -88,7 +106,7 @@ public class MessageConductor {
             app.handleLightMessage();
         } else if (topic.contains(Constants.TEXT_EVENT)) {
             int unreadCount = app.getUnreadCount();
-            String messageText = d.getString("text");
+            String messageText = payload;
             app.setUnreadCount(++unreadCount);
 
             // Log message with the following format:
@@ -97,6 +115,7 @@ public class MessageConductor {
             Date date = new Date();
             String logMessage = "["+new Timestamp(date.getTime())+"] Received Text:\n";
             app.getMessageLog().add(logMessage + messageText);
+
 
             // Send intent to LOG fragment to mark list data invalidated
             String runningActivity = app.getCurrentRunningActivity();
@@ -125,8 +144,12 @@ public class MessageConductor {
             if (messageText != null) {
                 unreadIntent.putExtra(Constants.INTENT_DATA, Constants.UNREAD_EVENT);
                 context.sendBroadcast(unreadIntent);
+
+                mTt.startSpeaking(messageText, IoTPagerFragment.mSynListenermSynListener);
             }
         } else if (topic.contains(Constants.ALERT_EVENT)) {
+            JSONObject top = new JSONObject(payload);
+            JSONObject d = top.getJSONObject("d");
             // save payload in an arrayList
             int unreadCount = app.getUnreadCount();
             String messageText = d.getString("text");

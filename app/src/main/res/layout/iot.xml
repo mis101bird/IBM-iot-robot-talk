@@ -22,27 +22,20 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              tools:context="com.ibm.iot.android.iotstarter.fragments.IoTPagerFragment"
-        >
+              tools:context="com.ibm.iot.android.iotstarter.fragments.IoTPagerFragment">
     <com.ibm.iot.android.iotstarter.views.DrawingView
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:id="@+id/drawing">
     </com.ibm.iot.android.iotstarter.views.DrawingView>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="top"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:orientation="horizontal">
+
         <TextView
                 style="@style/MyActionBarTitleText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/device_id_iot"
                 android:id="@+id/deviceIDSettingIoT"
+                android:visibility="invisible"
                 />
         <View android:layout_width="0dp"
               android:layout_height="match_parent"
@@ -53,14 +46,10 @@
                 android:layout_height="wrap_content"
                 android:text="@string/device_id_iot_value"
                 android:id="@+id/deviceIDIoT"
+                android:visibility="invisible"
                 />
-    </LinearLayout>
-    <LinearLayout android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:layout_centerVertical="true"
-                  android:layout_weight="1"
-                  android:gravity="center|bottom"
-                  android:orientation="vertical">
+
+
         <TextView
                 style="@style/MyActionBarTitleText"
                 android:gravity="center"
@@ -68,7 +57,27 @@
                 android:layout_height="wrap_content"
                 android:text="@string/accel_info"
                 android:id="@+id/accelInfo"
+            android:visibility="invisible"
                 />
+        <com.skyfishjy.library.RippleBackground
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/content"
+            app:rb_color="#0099CC"
+            app:rb_radius="32dp"
+            app:rb_rippleAmount="4"
+            app:rb_duration="3000"
+            app:rb_scale="6">
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/watson"
+            android:background="@color/transparent"
+            android:layout_centerInParent="true"
+            />
+        </com.skyfishjy.library.RippleBackground>
         <TextView
                 style="@style/MyActionBarTitleText"
                 android:gravity="center"
@@ -76,7 +85,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/accel_x"
                 android:id="@+id/accelX"
-                />
+            android:visibility="invisible" />
         <TextView
                 style="@style/MyActionBarTitleText"
                 android:gravity="center"
@@ -84,6 +93,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/accel_y"
                 android:id="@+id/accelY"
+            android:visibility="invisible"
                 />
         <TextView
                 style="@style/MyActionBarTitleText"
@@ -92,8 +102,9 @@
                 android:layout_height="wrap_content"
                 android:text="@string/accel_z"
                 android:id="@+id/accelZ"
+            android:visibility="invisible"
                 />
-    </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -111,7 +122,9 @@
                 android:textAlignment="center"
                 android:text="@string/messages_published"
                 android:id="@+id/messagesPublishedView"
+                android:visibility="invisible"
                 />
+
         <TextView
                 style="@style/MyActionBarTitleText"
                 android:gravity="center"
@@ -121,6 +134,7 @@
                 android:textAlignment="center"
                 android:text="@string/messages_received"
                 android:id="@+id/messagesReceivedView"
+            android:visibility="invisible"
                 />
         <Button
                 style="@style/BottomButton"
@@ -138,4 +152,5 @@
             android:gravity="center_horizontal"
             android:textSize="7pt" />
     </LinearLayout>
+
 </RelativeLayout>

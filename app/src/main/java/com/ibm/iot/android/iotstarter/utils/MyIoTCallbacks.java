@@ -24,6 +24,9 @@ import org.eclipse.paho.client.mqttv3.IMqttDeliveryToken;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.json.JSONException;
 
+import java.sql.Timestamp;
+import java.util.Date;
+
 /**
  * Implementation of IoTCallbacks interface
  */
@@ -87,12 +90,17 @@ public class MyIoTCallbacks implements IoTCallbacks {
             context.sendBroadcast(actionIntent);
         //}
 
-        String payload = new String(mqttMessage.getPayload());
+        //String payload = new String(mqttMessage.getPayload());
+        String payload=mqttMessage.toString();
         Log.d(TAG, ".messageArrived - Message received on topic " + topic
                 + ": message is " + payload);
+
         // TODO: Process message
         try {
             // send the message through the application logic
+            Date date1 = new Date();
+            String logMessage1 = "["+new Timestamp(date1.getTime())+"] Received Text:\n";
+            app.getMessageLog().add(logMessage1 + payload);
             MessageConductor.getInstance(context).steerMessage(payload, topic);
         } catch (JSONException e) {
             Log.e(TAG, ".messageArrived() - Exception caught while steering a message", e.getCause());

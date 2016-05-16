@@ -35,6 +35,7 @@ import com.ibm.iot.android.iotstarter.R;
 import com.ibm.iot.android.iotstarter.iot.IoTClient;
 import com.ibm.iot.android.iotstarter.speech.util.JsonParser;
 import com.ibm.iot.android.iotstarter.utils.Constants;
+import com.ibm.iot.android.iotstarter.utils.MessageConductor;
 import com.ibm.iot.android.iotstarter.utils.MessageFactory;
 import com.ibm.iot.android.iotstarter.utils.MyIoTActionListener;
 import com.ibm.iot.android.iotstarter.views.DrawingView;
@@ -49,6 +50,8 @@ import com.iflytek.cloud.SpeechError;
 import com.iflytek.cloud.SpeechEvent;
 import com.iflytek.cloud.SpeechRecognizer;
 import com.iflytek.cloud.SpeechUtility;
+import com.iflytek.cloud.SynthesizerListener;
+import com.skyfishjy.library.RippleBackground;
 
 
 import org.eclipse.paho.client.mqttv3.MqttException;
@@ -56,9 +59,11 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 
+import pl.droidsonroids.gif.GifDrawable;
 
 
 /**
@@ -70,12 +75,50 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
     private final static String TAG = IoTPagerFragment.class.getName();
     private DrawingView drawingView;
     private Handler mHandler = null;
+    private static boolean first=true;
     private static String mRecognitionResults = "";
     private SpeechRecognizer mIat;
+    static private RippleBackground rippleBackground;
     private enum ConnectionState {
         IDLE, CONNECTING, CONNECTED
     }
     static ConnectionState mState = ConnectionState.IDLE;
+    static public SynthesizerListener mSynListenermSynListener = new SynthesizerListener(){
+        @Override
+        public void onSpeakBegin() {
+            rippleBackground.startRippleAnimation();
+        }
+
+        @Override
+        public void onBufferProgress(int i, int i1, int i2, String s) {
+
+        }
+
+        @Override
+        public void onSpeakPaused() {
+
+        }
+
+        @Override
+        public void onSpeakResumed() {
+
+        }
+
+        @Override
+        public void onSpeakProgress(int i, int i1, int i2) {
+
+        }
+
+        @Override
+        public void onCompleted(SpeechError speechError) {
+            rippleBackground.stopRippleAnimation();
+        }
+
+        @Override
+        public void onEvent(int i, int i1, int i2, Bundle bundle) {
+
+        }
+    };
     private RecognizerListener mRecoListener = new RecognizerListener(){
 
         public void onResult(RecognizerResult results,boolean isLast) {
@@ -134,8 +177,14 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
     public void onResume() {
         Log.d(TAG, ".onResume() entered");
         super.onResume();
+        rippleBackground=(RippleBackground)getActivity().findViewById(R.id.content);
+
         app = (IoTStarterApplication) getActivity().getApplication();
         app.setCurrentRunningActivity(TAG);
+        if(first==true){
+            MessageConductor.getInstance(getActivity()).getmTt().startSpeaking("歡迎來到手機機器人",mSynListenermSynListener);
+            first=false;
+        }
 
         if (broadcastReceiver == null) {
             Log.d(TAG, ".onResume() - Registering iotBroadcastReceiver");
@@ -186,7 +235,7 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
         mIat.setParameter(SpeechConstant.DOMAIN,"iat");
         mIat.setParameter(SpeechConstant.LANGUAGE,"zh_cn");
         mIat.setParameter(SpeechConstant.ACCENT, "mandarin");
-        mIat.setParameter(SpeechConstant.NET_TIMEOUT, "1000");
+        mIat.setParameter(SpeechConstant.NET_TIMEOUT, "30000");
         mIat.setParameter(SpeechConstant.ASR_PTT, "0");
         mIat.setParameter(SpeechConstant.TEXT_ENCODING, "utf-8");
         /*
@@ -535,7 +584,7 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        if(!text.equals("。")){
+        if(!text.equals(" ")){
             displayStatus("get "+text);
             //send MQTT message
             try {
@@ -544,7 +593,7 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
                 IoTClient iotClient = IoTClient.getInstance(context);
                 String messageData = MessageFactory.getTextMessage(text);
                 Log.d("text","message: "+messageData);
-                iotClient.publishEvent(Constants.TEXT_EVENT, "json", messageData, 0, false, listener);
+                iotClient.publishEvent("text", "json", messageData, 0, false, listener);
 
                 int count = app.getPublishCount();
                 app.setPublishCount(++count);

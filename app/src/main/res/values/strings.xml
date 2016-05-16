@@ -17,7 +17,7 @@
 *******************************************************************************/
 -->
 <resources>
-    <string name="app_name">IoT iFly Starter</string>
+    <string name="app_name">IoT iFly TTS</string>
     <string name="action_settings">Settings</string>
 
     <!-- Generic Strings -->
