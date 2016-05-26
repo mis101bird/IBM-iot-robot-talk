@@ -252,6 +252,14 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
             }
         });
 
+        Button buttonhand = (Button) getActivity().findViewById(R.id.sendHandText);
+        buttonhand.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                handleHandSendText();
+            }
+        });
+
         drawingView = (DrawingView) getActivity().findViewById(R.id.drawing);
         drawingView.setContext(context);
     }
@@ -314,6 +322,44 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
         return null;
     }
 
+    private void handleHandSendText() {
+        if (app.getConnectionType() != Constants.ConnectionType.QUICKSTART) {
+            final EditText input = new EditText(context);
+            new AlertDialog.Builder(getActivity())
+                    .setTitle(getResources().getString(R.string.send_text_title))
+                    .setMessage(getResources().getString(R.string.send_text_text))
+                    .setView(input)
+                    .setPositiveButton(getResources().getString(R.string.ok), new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int whichButton) {
+                            Editable value = input.getText();
+                            String messageData = MessageFactory.getTextMessage(value.toString());
+                            //MQTT
+                            try {
+                                // create ActionListener to handle message published results
+                                MyIoTActionListener listener = new MyIoTActionListener(context, Constants.ActionStateStatus.PUBLISH);
+                                IoTClient iotClient = IoTClient.getInstance(context);
+                                iotClient.publishEvent("text", "json", messageData, 0, false, listener);
+
+                                int count = app.getPublishCount();
+                                app.setPublishCount(++count);
+
+                                String runningActivity = app.getCurrentRunningActivity();
+                                if (runningActivity != null && runningActivity.equals(IoTPagerFragment.class.getName())) {
+                                    Intent actionIntent = new Intent(Constants.APP_ID + Constants.INTENT_IOT);
+                                    actionIntent.putExtra(Constants.INTENT_DATA, Constants.INTENT_DATA_PUBLISHED);
+                                    context.sendBroadcast(actionIntent);
+                                }
+                            } catch (MqttException e) {
+                                // Publish failed
+                            }
+                        }
+                    }).setNegativeButton(getResources().getString(R.string.cancel), new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int whichButton) {
+                    // Do nothing.
+                }
+            }).show();
+        }
+    }
     private void handleSendText() {
         Log.d(TAG, ".handleSendText() entered");
         if (app.getConnectionType() != Constants.ConnectionType.QUICKSTART) {
@@ -335,41 +381,7 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
 
             }
 
-            /*
-            final EditText input = new EditText(context);
-            new AlertDialog.Builder(getActivity())
-                    .setTitle(getResources().getString(R.string.send_text_title))
-                    .setMessage(getResources().getString(R.string.send_text_text))
-                    .setView(input)
-                    .setPositiveButton(getResources().getString(R.string.ok), new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int whichButton) {
-                            Editable value = input.getText();
-                            String messageData = MessageFactory.getTextMessage(value.toString());
-                            try {
-                                // create ActionListener to handle message published results
-                                MyIoTActionListener listener = new MyIoTActionListener(context, Constants.ActionStateStatus.PUBLISH);
-                                IoTClient iotClient = IoTClient.getInstance(context);
-                                iotClient.publishEvent(Constants.TEXT_EVENT, "json", messageData, 0, false, listener);
 
-                                int count = app.getPublishCount();
-                                app.setPublishCount(++count);
-
-                                String runningActivity = app.getCurrentRunningActivity();
-                                if (runningActivity != null && runningActivity.equals(IoTPagerFragment.class.getName())) {
-                                    Intent actionIntent = new Intent(Constants.APP_ID + Constants.INTENT_IOT);
-                                    actionIntent.putExtra(Constants.INTENT_DATA, Constants.INTENT_DATA_PUBLISHED);
-                                    context.sendBroadcast(actionIntent);
-                                }
-                            } catch (MqttException e) {
-                                // Publish failed
-                            }
-                        }
-                    }).setNegativeButton(getResources().getString(R.string.cancel), new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int whichButton) {
-                    // Do nothing.
-                }
-            }).show();
-            */
 
         } else {
             new AlertDialog.Builder(getActivity())
