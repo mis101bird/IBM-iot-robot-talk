@@ -40,6 +40,7 @@ import com.ibm.iot.android.iotstarter.views.DrawingView;
 import com.ibm.watson.developer_cloud.android.speech_to_text.v1.ISpeechDelegate;
 import com.ibm.watson.developer_cloud.android.speech_to_text.v1.SpeechToText;
 import com.ibm.watson.developer_cloud.android.speech_to_text.v1.dto.SpeechConfiguration;
+import com.ibm.watson.developer_cloud.android.text_to_speech.v1.TextToSpeech;
 
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.json.JSONArray;
@@ -325,6 +326,8 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
         }
     }
 
+
+
     /**
      * Intent data contained INTENT_DATA_PUBLISH
      * Update the published messages view based on app.getPublishCount()
@@ -414,7 +417,7 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
                                 IoTClient iotClient = IoTClient.getInstance(context);
                                 String messageData = MessageFactory.getTextMessage(mRecognitionResults);
                                 Log.d("text","message: "+messageData);
-                                iotClient.publishEvent(Constants.TEXT_EVENT, "json", messageData, 0, false, listener);
+                                iotClient.publishEvent("text", "json", messageData, 0, false, listener);
 
                                 int count = app.getPublishCount();
                                 app.setPublishCount(++count);

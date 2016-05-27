@@ -406,7 +406,7 @@ public class IoTClient {
      * @return The command topic for the specified command string
      */
     public static String getCommandTopic(String command, String format) {
-        return "iot-2/cmd/" + command + "/fmt/json";
+        return "iot-2/cmd/" + command + "/fmt/string";
     }
 
     public String getAuthorizationToken() {

@@ -19,12 +19,16 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.util.Log;
+import android.widget.Toast;
+
 import com.ibm.iot.android.iotstarter.IoTStarterApplication;
+import com.ibm.iot.android.iotstarter.R;
 import com.ibm.iot.android.iotstarter.activities.ProfilesActivity;
 import com.ibm.iot.android.iotstarter.fragments.IoTPagerFragment;
 import com.ibm.iot.android.iotstarter.fragments.LogPagerFragment;
 import com.ibm.iot.android.iotstarter.fragments.LoginPagerFragment;
 import com.ibm.watson.developer_cloud.android.speech_to_text.v1.SpeechToText;
+import com.ibm.watson.developer_cloud.android.text_to_speech.v1.TextToSpeech;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -63,10 +67,11 @@ public class MessageConductor {
      */
     public void steerMessage(String payload, String topic) throws JSONException {
         Log.d(TAG, ".steerMessage() entered");
-        JSONObject top = new JSONObject(payload);
-        JSONObject d = top.getJSONObject("d");
 
         if (topic.contains(Constants.COLOR_EVENT)) {
+            JSONObject top = new JSONObject(payload);
+            JSONObject d = top.getJSONObject("d");
+
             Log.d(TAG, "Color Event");
             int r = d.getInt("r");
             int g = d.getInt("g");
@@ -89,6 +94,9 @@ public class MessageConductor {
         } else if (topic.contains(Constants.LIGHT_EVENT)) {
             app.handleLightMessage();
         } else if (topic.contains(Constants.TEXT_EVENT)) {
+            JSONObject top = new JSONObject(payload);
+            JSONObject d = top.getJSONObject("d");
+
             int unreadCount = app.getUnreadCount();
             String messageText = d.getString("text");
             app.setUnreadCount(++unreadCount);
@@ -127,12 +135,13 @@ public class MessageConductor {
             if (messageText != null) {
                 unreadIntent.putExtra(Constants.INTENT_DATA, Constants.UNREAD_EVENT);
                 context.sendBroadcast(unreadIntent);
+
             }
         }else if (topic.contains(Constants.STOP_EVENT)) {
             int unreadCount = app.getUnreadCount();
-            String messageText = d.getString("mes");
+            String messageText = payload;
             app.setUnreadCount(++unreadCount);
-
+            Log.d("tts","tts: "+messageText);
             // Log message with the following format:
             // [yyyy-mm-dd hh:mm:ss.S] Received text:
             // <message text>
@@ -165,20 +174,22 @@ public class MessageConductor {
             }
 
             if (messageText != null) {
-
-                if(messageText.equals("true") && IoTPagerFragment.mState == IoTPagerFragment.ConnectionState.CONNECTED){
-                    IoTPagerFragment.mState = IoTPagerFragment.ConnectionState.IDLE;
-                    Log.d("STT", "onClickRecord: CONNECTED -> IDLE");
-                    SpeechToText.sharedInstance().stopRecognition();
-                }else if(messageText.equals("false") && IoTPagerFragment.mState == IoTPagerFragment.ConnectionState.IDLE&&IoTPagerFragment.uiStop==false){
-                    IoTPagerFragment.mState = IoTPagerFragment.ConnectionState.CONNECTED;
-                    Log.d("STT", "onClickRecord: IDLE -> CONNECTED");
-                    SpeechToText.sharedInstance().recognize(); //開始轉錄
+                Log.d("tts","in:  "+messageText+" !=null");
+                if (initTTS() == false) {
+                    Toast.makeText(this.context, "TTS Error: no authentication", Toast.LENGTH_LONG).show();
+                    Log.d("tts", "initTTS() == false");
                 }
+                //SpeechToText.sharedInstance().stopRecognition();
+
+                TextToSpeech.sharedInstance().synthesize(messageText);
                 unreadIntent.putExtra(Constants.INTENT_DATA, Constants.UNREAD_EVENT);
+                unreadIntent.putExtra(Constants.INTENT_DATA_MESSAGE, messageText);
                 context.sendBroadcast(unreadIntent);
             }
         } else if (topic.contains(Constants.ALERT_EVENT)) {
+            JSONObject top = new JSONObject(payload);
+            JSONObject d = top.getJSONObject("d");
+
             // save payload in an arrayList
             int unreadCount = app.getUnreadCount();
             String messageText = d.getString("text");
@@ -221,5 +232,16 @@ public class MessageConductor {
                 }
             }
         }
+    }
+    private boolean initTTS() {
+
+        String username = IoTPagerFragment.newInstance().getString(R.string.STTdefaultUsername);
+        String password = IoTPagerFragment.newInstance().getString(R.string.STTdefaultPassword);
+        String tokenFactoryURL = "https://stream.watsonplatform.net/text-to-speech/api";
+        String serviceURL = "https://stream.watsonplatform.net/text-to-speech/api";
+        TextToSpeech.sharedInstance().initWithContext(IoTPagerFragment.newInstance().getHost(serviceURL));
+        TextToSpeech.sharedInstance().setCredentials(username, password);
+        TextToSpeech.sharedInstance().setVoice("en-US_MichaelVoice");
+        return true;
     }
 }
