@@ -298,7 +298,7 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
      * @param intent The intent which was received by the fragment.
      */
     private void processIntent(Intent intent) {
-        Log.d(TAG, ".processIntent() entered");
+        Log.d(TAG, ".processIntent() entered: "+intent.getStringExtra(Constants.INTENT_DATA));
 
         // No matter the intent, update log button based on app.unreadCount.
         updateViewStrings();
@@ -323,6 +323,14 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
                         public void onClick(DialogInterface dialog, int whichButton) {
                         }
                     }).show();
+        }else if (data.equals(Constants.STOP_EVENT)) {
+            Log.d(Constants.STOP_EVENT,"here");
+            if (initTTS() == false) {
+                Log.d("tts", "initTTS() == false");
+            }
+
+            SpeechToText.sharedInstance().stopRecognition();
+            TextToSpeech.sharedInstance().synthesize(intent.getStringExtra(Constants.INTENT_DATA_MESSAGE));
         }
     }
 
@@ -348,8 +356,19 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
         String receivedString = this.getString(R.string.messages_received);
         receivedString = receivedString.replace("0",Integer.toString(app.getReceiveCount()));
         ((TextView) getActivity().findViewById(R.id.messagesReceivedView)).setText(receivedString);
-    }
 
+    }
+private boolean initTTS() {
+
+        String username = getString(R.string.TTSdefaultUsername);
+        String password = getString(R.string.TTSdefaultPassword);
+        String tokenFactoryURL = getString(R.string.TTSdefaultTokenFactory);
+        String serviceURL = "https://stream.watsonplatform.net/text-to-speech/api";
+        TextToSpeech.sharedInstance().initWithContext(IoTPagerFragment.newInstance().getHost(serviceURL));
+        TextToSpeech.sharedInstance().setCredentials(username, password);
+        TextToSpeech.sharedInstance().setVoice("en-US_MichaelVoice");
+        return true;
+    }
     /**
      * Update acceleration view strings
      */

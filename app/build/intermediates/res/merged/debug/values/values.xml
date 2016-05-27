@@ -230,6 +230,9 @@
     <string name="STTdefaultPassword">0sb0ddkAnvJR</string>
     <string name="STTdefaultTokenFactory">https://stream.watsonplatform.net/speech-to-text/api</string>
     <string name="STTdefaultUsername">dfc6eba9-459d-41ff-8127-2f1ae329c275</string>
+    <string name="TTSdefaultPassword">hXcIfHjNpHve</string>
+    <string name="TTSdefaultTokenFactory">https://stream.watsonplatform.net/text-to-speech/api</string>
+    <string name="TTSdefaultUsername">0c0c20b5-0736-43f0-a394-d14b203b3d66</string>
     <!-- From: file:/C:/Users/ser/Desktop/iot-starter-for-android-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>

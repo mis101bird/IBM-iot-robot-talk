@@ -43,6 +43,10 @@
     <string name="clear_log_label">Clear Log</string>
     <string name="tutorial_label">Open Tutorial</string>
 
+    <string name="TTSdefaultUsername">0c0c20b5-0736-43f0-a394-d14b203b3d66</string> 
+    <string name="TTSdefaultPassword">hXcIfHjNpHve</string> 
+    <string name="TTSdefaultTokenFactory">https://stream.watsonplatform.net/text-to-speech/api</string> 
+
     <!-- Begin Login Fragment -->
     <string name="showToken_button">Show Auth Token</string>
     <string name="hideToken_button">Hide Auth Token</string>

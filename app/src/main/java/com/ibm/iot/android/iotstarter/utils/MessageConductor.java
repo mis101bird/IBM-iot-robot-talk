@@ -27,7 +27,6 @@ import com.ibm.iot.android.iotstarter.activities.ProfilesActivity;
 import com.ibm.iot.android.iotstarter.fragments.IoTPagerFragment;
 import com.ibm.iot.android.iotstarter.fragments.LogPagerFragment;
 import com.ibm.iot.android.iotstarter.fragments.LoginPagerFragment;
-import com.ibm.watson.developer_cloud.android.speech_to_text.v1.SpeechToText;
 import com.ibm.watson.developer_cloud.android.text_to_speech.v1.TextToSpeech;
 
 import org.json.JSONException;
@@ -154,35 +153,32 @@ public class MessageConductor {
             //if (runningActivity != null && runningActivity.equals(LogPagerFragment.class.getName())) {
             Intent actionIntent = new Intent(Constants.APP_ID + Constants.INTENT_LOG);
             actionIntent.putExtra(Constants.INTENT_DATA, Constants.TEXT_EVENT);
+            actionIntent.putExtra(Constants.INTENT_DATA_MESSAGE, messageText);
             context.sendBroadcast(actionIntent);
             //}
 
             // Send intent to current active fragment / activity to update Unread message count
             // Skip sending intent if active tab is LOG
             // TODO: 'current activity' code needs fixing.
-            Intent unreadIntent;
+            Intent unreadIntent = new Intent(Constants.APP_ID + Constants.INTENT_IOT);;
+            /*
             if (runningActivity.equals(LogPagerFragment.class.getName())) {
                 unreadIntent = new Intent(Constants.APP_ID + Constants.INTENT_LOG);
             } else if (runningActivity.equals(LoginPagerFragment.class.getName())) {
                 unreadIntent = new Intent(Constants.APP_ID + Constants.INTENT_LOGIN);
             } else if (runningActivity.equals(IoTPagerFragment.class.getName())) {
+                Log.d(Constants.INTENT_IOT,"iot");
                 unreadIntent = new Intent(Constants.APP_ID + Constants.INTENT_IOT);
             } else if (runningActivity.equals(ProfilesActivity.class.getName())) {
                 unreadIntent = new Intent(Constants.APP_ID + Constants.INTENT_PROFILES);
             } else {
                 return;
             }
-
+            */
             if (messageText != null) {
                 Log.d("tts","in:  "+messageText+" !=null");
-                if (initTTS() == false) {
-                    Toast.makeText(this.context, "TTS Error: no authentication", Toast.LENGTH_LONG).show();
-                    Log.d("tts", "initTTS() == false");
-                }
-                //SpeechToText.sharedInstance().stopRecognition();
 
-                TextToSpeech.sharedInstance().synthesize(messageText);
-                unreadIntent.putExtra(Constants.INTENT_DATA, Constants.UNREAD_EVENT);
+                unreadIntent.putExtra(Constants.INTENT_DATA, Constants.STOP_EVENT);
                 unreadIntent.putExtra(Constants.INTENT_DATA_MESSAGE, messageText);
                 context.sendBroadcast(unreadIntent);
             }
@@ -233,15 +229,5 @@ public class MessageConductor {
             }
         }
     }
-    private boolean initTTS() {
 
-        String username = IoTPagerFragment.newInstance().getString(R.string.STTdefaultUsername);
-        String password = IoTPagerFragment.newInstance().getString(R.string.STTdefaultPassword);
-        String tokenFactoryURL = "https://stream.watsonplatform.net/text-to-speech/api";
-        String serviceURL = "https://stream.watsonplatform.net/text-to-speech/api";
-        TextToSpeech.sharedInstance().initWithContext(IoTPagerFragment.newInstance().getHost(serviceURL));
-        TextToSpeech.sharedInstance().setCredentials(username, password);
-        TextToSpeech.sharedInstance().setVoice("en-US_MichaelVoice");
-        return true;
-    }
 }
