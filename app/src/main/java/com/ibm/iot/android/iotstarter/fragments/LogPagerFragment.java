@@ -31,6 +31,7 @@ import com.ibm.iot.android.iotstarter.activities.ProfilesActivity;
 import com.ibm.iot.android.iotstarter.activities.TutorialPagerActivity;
 import com.ibm.iot.android.iotstarter.activities.WebActivity;
 import com.ibm.iot.android.iotstarter.utils.Constants;
+import com.ibm.iot.android.iotstarter.utils.TalkAdapter;
 
 /**
  * The Log fragment displays text command messages that have been received by the application.
@@ -76,10 +77,11 @@ public class LogPagerFragment extends ListFragment{
         app.setCurrentRunningActivity(TAG);
         app.setUnreadCount(0);
 
-        listAdapter = new ArrayAdapter<String>(context, R.layout.list_item, app.getMessageLog());
+        //listAdapter = new ArrayAdapter<String>(context, R.layout.list_item, app.getMessageLog());
+        listAdapter = new TalkAdapter(context, R.layout.list_item, app.getMessageLog());
         listView.setAdapter(listAdapter);
 
-        if (broadcastReceiver == null) {
+        //if (broadcastReceiver == null) {
             Log.d(TAG, ".onResume() - Registering LogBroadcastReceiver");
             broadcastReceiver = new BroadcastReceiver() {
 
@@ -89,7 +91,7 @@ public class LogPagerFragment extends ListFragment{
                     processIntent(intent);
                 }
             };
-        }
+        //}
 
         getActivity().getApplicationContext().registerReceiver(broadcastReceiver,
                 new IntentFilter(Constants.APP_ID + Constants.INTENT_LOG));

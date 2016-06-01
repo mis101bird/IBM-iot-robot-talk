@@ -113,7 +113,7 @@ public class MessageConductor {
             // [yyyy-mm-dd hh:mm:ss.S] Received text:
             // <message text>
             Date date = new Date();
-            String logMessage = "["+new Timestamp(date.getTime())+"] Received Text:\n";
+            String logMessage = "智能助手: ";
             app.getMessageLog().add(logMessage + messageText);
 
 

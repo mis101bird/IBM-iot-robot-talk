@@ -76,7 +76,7 @@ public class FucUtil {
 			case ErrorCode.ERROR_INVALID_RESULT:
 				SpeechUtility.getUtility().openEngineSettings(SpeechConstant.ENG_ASR);
 				return "获取结果出错，跳转至资源下载页面";
-			case ErrorCode.ERROR_SYSTEM_PREINSTALL:
+			case ErrorCode.ERROR_AITALK_SYNTAX_ERROR:
 				//语记为厂商预置版本。
 			default:
 				break;

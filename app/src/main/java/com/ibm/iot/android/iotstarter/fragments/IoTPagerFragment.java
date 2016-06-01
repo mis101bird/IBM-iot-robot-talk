@@ -43,6 +43,7 @@ import com.ibm.watson.developer_cloud.android.speech_to_text.v1.ISpeechDelegate;
 import com.ibm.watson.developer_cloud.android.speech_to_text.v1.SpeechToText;
 import com.ibm.watson.developer_cloud.android.speech_to_text.v1.dto.SpeechConfiguration;
 import com.iflytek.cloud.ErrorCode;
+import com.iflytek.cloud.InitListener;
 import com.iflytek.cloud.RecognizerListener;
 import com.iflytek.cloud.RecognizerResult;
 import com.iflytek.cloud.SpeechConstant;
@@ -62,6 +63,8 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.sql.Timestamp;
+import java.util.Date;
 
 import pl.droidsonroids.gif.GifDrawable;
 
@@ -134,12 +137,17 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
             displayStatus(error.getPlainDescription(true));
         }
 
+        @Override
+        public void onVolumeChanged(int i) {
+
+        }
+
         public void onBeginOfSpeech() {
             Log.d(TAG, "onOpen");
             mState = ConnectionState.CONNECTED;
             displayButton("Stop recording");
         }
-        public void onVolumeChanged(int volume, byte[] data){}
+
 
         public void onEndOfSpeech() {
             mState = ConnectionState.IDLE;
@@ -223,6 +231,18 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
     /**
      * Initializing onscreen elements and shared properties
      */
+    private InitListener mTtsInitListener = new InitListener() {
+        @Override
+        public void onInit(int code) {
+            Log.d(TAG, "InitListener init() code = " + code);
+            if (code != ErrorCode.SUCCESS) {
+               Log.d("stt","初始化失败,错误码：" + code);
+            } else {
+
+            }
+        }
+    };
+
     private void initializeIoTActivity() {
         Log.d(TAG, ".initializeIoTFragment() entered");
 
@@ -231,7 +251,7 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
         updateViewStrings();
 
         Log.d("STT", "setup STT");
-        mIat=SpeechRecognizer.createRecognizer(context,null);
+        mIat=SpeechRecognizer.createRecognizer(context,mTtsInitListener);
         mIat.setParameter(SpeechConstant.DOMAIN,"iat");
         mIat.setParameter(SpeechConstant.LANGUAGE,"zh_cn");
         mIat.setParameter(SpeechConstant.ACCENT, "mandarin");
@@ -330,36 +350,63 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
                     .setMessage(getResources().getString(R.string.send_text_text))
                     .setView(input)
                     .setPositiveButton(getResources().getString(R.string.ok), new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int whichButton) {
-                            Editable value = input.getText();
-                            String messageData = MessageFactory.getTextMessage(value.toString());
-                            //MQTT
-                            try {
-                                // create ActionListener to handle message published results
-                                MyIoTActionListener listener = new MyIoTActionListener(context, Constants.ActionStateStatus.PUBLISH);
-                                IoTClient iotClient = IoTClient.getInstance(context);
-                                iotClient.publishEvent("text", "json", messageData, 0, false, listener);
 
-                                int count = app.getPublishCount();
-                                app.setPublishCount(++count);
+                                public void onClick(DialogInterface dialog, int whichButton) {
+                                    Editable value = input.getText();
+                                    String messageData = MessageFactory.getTextMessage(value.toString());
 
-                                String runningActivity = app.getCurrentRunningActivity();
-                                if (runningActivity != null && runningActivity.equals(IoTPagerFragment.class.getName())) {
-                                    Intent actionIntent = new Intent(Constants.APP_ID + Constants.INTENT_IOT);
-                                    actionIntent.putExtra(Constants.INTENT_DATA, Constants.INTENT_DATA_PUBLISHED);
-                                    context.sendBroadcast(actionIntent);
+                                    //LOG
+                                    Date date = new Date();
+                                    String logMessage = "我: ";
+                                    app.getMessageLog().add(logMessage + value.toString());
+
+                                        Intent LogIntent = new Intent(Constants.APP_ID + Constants.INTENT_LOG);
+                                        LogIntent.putExtra(Constants.INTENT_DATA, Constants.TEXT_EVENT);
+                                        context.sendBroadcast(LogIntent);
+
+                                    //MQTT
+                                    try {
+                                        // create ActionListener to handle message published results
+                                        MyIoTActionListener listener = new MyIoTActionListener(context, Constants.ActionStateStatus.PUBLISH);
+                                        IoTClient iotClient = IoTClient.getInstance(context);
+                                        iotClient.publishEvent("text", "json", messageData, 0, false, listener);
+
+                                        int count = app.getPublishCount();
+                                        app.setPublishCount(++count);
+
+                                        String runningActivity = app.getCurrentRunningActivity();
+                                        if (runningActivity != null && runningActivity.equals(IoTPagerFragment.class.getName())) {
+                                            Intent actionIntent = new Intent(Constants.APP_ID + Constants.INTENT_IOT);
+                                            actionIntent.putExtra(Constants.INTENT_DATA, Constants.INTENT_DATA_PUBLISHED);
+                                            context.sendBroadcast(actionIntent);
+                                        }
+                                    } catch (MqttException e) {
+                                        // Publish failed
+                                    }
                                 }
-                            } catch (MqttException e) {
-                                // Publish failed
                             }
-                        }
-                    }).setNegativeButton(getResources().getString(R.string.cancel), new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int whichButton) {
-                    // Do nothing.
-                }
-            }).show();
+
+                    ).
+
+                        setNegativeButton(getResources()
+
+                                        .
+
+                                                getString(R.string.cancel),
+
+                                new DialogInterface.OnClickListener()
+
+                                {
+                                    public void onClick(DialogInterface dialog, int whichButton) {
+                                        // Do nothing.
+                                    }
+                                }
+
+                        ).
+
+                        show();
+                    }
         }
-    }
     private void handleSendText() {
         Log.d(TAG, ".handleSendText() entered");
         if (app.getConnectionType() != Constants.ConnectionType.QUICKSTART) {
@@ -511,7 +558,7 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
                     if(obj.getString("final").equals("true")) {
                         mRecognitionResults = str;
                         if (mRecognitionResults != null || mRecognitionResults != "") {
-                            displayStatus("get "+mRecognitionResults);
+                            displayStatus("get " + mRecognitionResults);
 
                             //send MQTT message
                             try {
