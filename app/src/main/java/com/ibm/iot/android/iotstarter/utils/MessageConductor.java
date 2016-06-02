@@ -103,8 +103,8 @@ public class MessageConductor {
             // Log message with the following format:
             // [yyyy-mm-dd hh:mm:ss.S] Received text:
             // <message text>
-            Date date = new Date();
-            String logMessage = "["+new Timestamp(date.getTime())+"] Received Text:\n";
+
+            String logMessage = "智能助手:\n";
             app.getMessageLog().add(logMessage + messageText);
 
             // Send intent to LOG fragment to mark list data invalidated
@@ -145,7 +145,7 @@ public class MessageConductor {
             // [yyyy-mm-dd hh:mm:ss.S] Received text:
             // <message text>
             Date date = new Date();
-            String logMessage = "["+new Timestamp(date.getTime())+"] Received Mes:\n";
+            String logMessage = ":智能助手\n";
             app.getMessageLog().add(logMessage + messageText);
 
             // Send intent to LOG fragment to mark list data invalidated

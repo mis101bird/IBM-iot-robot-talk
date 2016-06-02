@@ -8,7 +8,7 @@ package com.ibm.watson.developer_cloud.android.speech_to_text.v1;
 
 public final class R {
 	public static final class drawable {
-		public static final int ic_launcher = 0x7f020054;
+		public static final int ic_launcher = 0x7f020055;
 	}
 	public static final class mipmap {
 		public static final int ic_launcher = 0x7f030000;

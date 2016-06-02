@@ -29,7 +29,7 @@
     <color name="background_floating_material_light">#ffeeeeee</color>
     <!-- From: file:/C:/Users/ser/Desktop/iot-starter-for-android-master/app/src/main/res/values/colors.xml -->
     <eat-comment/>
-    <color name="background_main">#3A4A53</color>
+    <color name="background_main">#FFFFFF</color>
     <!-- From: file:/C:/Users/ser/Desktop/iot-starter-for-android-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values/values.xml -->
     <eat-comment/>
     <color name="background_material_dark">#ff303030</color>

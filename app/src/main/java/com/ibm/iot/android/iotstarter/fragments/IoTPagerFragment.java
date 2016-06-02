@@ -17,9 +17,14 @@ package com.ibm.iot.android.iotstarter.fragments;
 
 import android.app.AlertDialog;
 import android.content.*;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
+import android.media.MediaRecorder;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
+import android.os.Message;
 import android.text.Editable;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -46,10 +51,24 @@ import org.eclipse.paho.client.mqttv3.MqttException;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.ksoap2.SoapEnvelope;
+import org.ksoap2.serialization.SoapObject;
+import org.ksoap2.serialization.SoapSerializationEnvelope;
+import org.ksoap2.transport.HttpTransportSE;
 
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.URI;
 import java.net.URISyntaxException;
-
+import java.net.URL;
+import java.net.URLConnection;
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.List;
 
 
 /**
@@ -325,16 +344,157 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
                     }).show();
         }else if (data.equals(Constants.STOP_EVENT)) {
             Log.d(Constants.STOP_EVENT,"here");
+            new QueryAddressTask().execute(intent.getStringExtra(Constants.INTENT_DATA_MESSAGE));
+            /*
             if (initTTS() == false) {
                 Log.d("tts", "initTTS() == false");
-            }
 
+            }*/
+            /*
             SpeechToText.sharedInstance().stopRecognition();
             TextToSpeech.sharedInstance().synthesize(intent.getStringExtra(Constants.INTENT_DATA_MESSAGE));
+            */
+
         }
     }
 
+    class QueryAddressTask extends AsyncTask<String, Integer, String> {
+        @Override
+        protected String doInBackground(String... params) {
 
+            String wav = null;
+            File file = new File(context.getCacheDir().getPath()+ "/" + params[0] + ".wav");
+            if(file.exists()){
+                MediaPlayer mp = new MediaPlayer();
+                wav=context.getCacheDir().getPath()+ "/" + params[0] + ".wav";
+                try {
+                    mp.setDataSource(context.getCacheDir().getPath()+ "/" + params[0] + ".wav");
+                    mp.prepare();
+                    mp.start();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }else {
+
+                String methodName = "ConvertText";
+                String nameSpace = "http://tts.itri.org.tw/TTSService/";
+                String soapAction = nameSpace + methodName;
+                SoapObject rpc = new SoapObject(nameSpace, methodName);
+                rpc.addProperty("accountID", "mis101bird");
+                rpc.addProperty("password", "abcd4723ccc");
+                rpc.addProperty("TTStext", params[0]);
+                rpc.addProperty("TTSSpeaker", "Theresa");
+                rpc.addProperty("volume", "100");
+                rpc.addProperty("speed", "0");
+                rpc.addProperty("outType", "wav");
+                SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
+                envelope.bodyOut = rpc;
+                envelope.dotNet = true;
+                envelope.setOutputSoapObject(rpc);
+                HttpTransportSE transport = new HttpTransportSE("http://tts.itri.org.tw/TTSService/Soap_1_3.php?wsdl");
+                transport.debug = true;
+                Object obj = null;
+                try {
+                    transport.call(soapAction, envelope);
+                    obj = envelope.getResponse();
+                    String result = obj.toString();
+                    Log.i("shiaukai", "result:" + obj.toString());
+//resultTV.setText(result);
+                    String[] retAry = result.split("&");
+                    String status = retAry[0];
+                    Log.i("shiaukai", status);
+                    int convertID;
+                    if (status.equals("0")) {
+                        convertID = Integer.valueOf(retAry[2]);
+
+                        while (true) {
+
+                            Thread.sleep(2000);
+                            String methodName1 = "GetConvertStatus";
+                            String soapAction1 = nameSpace + methodName1;
+                            SoapObject rpcs = new SoapObject(nameSpace, methodName1);
+                            rpcs.addProperty("accountID", "mis101bird");
+                            rpcs.addProperty("password", "abcd4723ccc");
+                            rpcs.addProperty("convertID", convertID);
+                            SoapSerializationEnvelope envelope1 = new SoapSerializationEnvelope(SoapEnvelope.VER11);
+                            envelope1.bodyOut = rpcs;
+                            envelope1.dotNet = true;
+                            envelope1.setOutputSoapObject(rpcs);
+                            HttpTransportSE transport1 = new HttpTransportSE("http://tts.itri.org.tw/TTSService/Soap_1_3.php?wsdl");
+                            transport1.debug = true;
+                            Object objs = null;
+                            try {
+                                transport1.call(soapAction1, envelope1);
+                                objs = envelope1.getResponse();
+                                wav = objs.toString();
+                                String[] ret = wav.split("&");
+                                String message = ret[2];
+                                if (message.equals("2")) {
+                                    wav = ret[4];
+                                    break;
+                                }
+                                Log.i("shiaukai end", "result end:" + wav);
+
+                            } catch (Exception e) {
+                                e.printStackTrace();
+                            }
+                        }
+                    }
+
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                try {
+                    MediaPlayer player = new MediaPlayer();
+                    player.setAudioStreamType(AudioManager.STREAM_MUSIC);
+                    player.setDataSource(wav);
+                    player.prepare();
+                    player.start();
+
+                } catch (Exception e) {
+                    // TODO: handle exception
+                }
+                //store audio
+                int count;
+                try {
+                    URL url = new URL(wav);
+                    URLConnection conexion = url.openConnection();
+                    conexion.connect();
+                    // this will be useful so that you can show a tipical 0-100% progress bar
+                    int lenghtOfFile = conexion.getContentLength();
+
+                    // downlod the file
+                    InputStream input = new BufferedInputStream(url.openStream());
+                    OutputStream output = new FileOutputStream(context.getCacheDir().getPath()+ "/" + params[0] + ".wav");
+
+                    byte data[] = new byte[1024];
+
+                    long total = 0;
+
+                    while ((count = input.read(data)) != -1) {
+                        total += count;
+                        // publishing the progress....
+                        publishProgress((int)(total*100/lenghtOfFile));
+                        output.write(data, 0, count);
+                    }
+
+                    output.flush();
+                    output.close();
+                    input.close();
+                } catch (Exception e) { }
+            }
+
+            return wav;
+        }
+
+        @Override
+        protected void onPostExecute(String result) {
+
+            Log.d("result", "ui: " + result);
+
+        }
+    }
 
     /**
      * Intent data contained INTENT_DATA_PUBLISH
@@ -428,7 +588,8 @@ private boolean initTTS() {
                         mRecognitionResults = str;
                         if (mRecognitionResults != null || mRecognitionResults != "") {
                             displayStatus("get "+mRecognitionResults);
-
+                            String logMessage = "我:\n";
+                            app.getMessageLog().add(logMessage + mRecognitionResults);
                             //send MQTT message
                             try {
                                 // create ActionListener to handle message published results
