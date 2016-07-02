@@ -365,7 +365,16 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
             String wav = null;
             File file = new File(context.getCacheDir().getPath()+ "/" + params[0] + ".wav");
             if(file.exists()){
+                SpeechToText.sharedInstance().stopRecognition();
                 MediaPlayer mp = new MediaPlayer();
+                mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+
+                    @Override
+                    public void onCompletion(MediaPlayer mp) {
+                        SpeechToText.sharedInstance().recognize();
+                    }
+
+                });
                 wav=context.getCacheDir().getPath()+ "/" + params[0] + ".wav";
                 try {
                     mp.setDataSource(context.getCacheDir().getPath()+ "/" + params[0] + ".wav");
@@ -446,7 +455,16 @@ public class IoTPagerFragment extends IoTStarterPagerFragment implements ISpeech
                     e.printStackTrace();
                 }
                 try {
+                    SpeechToText.sharedInstance().stopRecognition();
                     MediaPlayer player = new MediaPlayer();
+                    player.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+
+                        @Override
+                        public void onCompletion(MediaPlayer mp) {
+                            SpeechToText.sharedInstance().recognize();
+                        }
+
+                    });
                     player.setAudioStreamType(AudioManager.STREAM_MUSIC);
                     player.setDataSource(wav);
                     player.prepare();

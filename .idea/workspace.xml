@@ -59,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IoTPagerFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IoTPagerFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ibm/iot/android/iotstarter/fragments/IoTPagerFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.69697">
-              <caret line="484" column="40" selection-start-line="484" selection-start-column="40" selection-end-line="484" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.4274809">
+              <caret line="460" column="0" selection-start-line="460" selection-start-column="0" selection-end-line="460" selection-end-column="0" />
               <folding>
                 <element signature="e#4492#4782#0" expanded="true" />
                 <element signature="e#4781#4782#0" expanded="true" />
@@ -76,16 +76,19 @@
                 <element signature="e#12229#12266#0" expanded="true" />
                 <element signature="e#13853#13906#0" expanded="true" />
                 <element signature="e#13988#14025#0" expanded="true" />
-                <element signature="e#21104#21147#0" expanded="true" />
-                <element signature="e#21621#21663#0" expanded="true" />
-                <element signature="e#21921#21959#0" expanded="true" />
-                <element signature="e#21987#22025#0" expanded="true" />
-                <element signature="e#22060#22102#0" expanded="true" />
-                <element signature="e#24444#24476#0" expanded="true" />
-                <element signature="e#27596#27811#0" expanded="true" />
-                <element signature="e#27810#27811#0" expanded="true" />
-                <element signature="e#27822#27933#0" expanded="true" />
-                <element signature="e#27932#27933#0" expanded="true" />
+                <element signature="e#15217#15459#0" expanded="true" />
+                <element signature="e#15458#15459#0" expanded="true" />
+                <element signature="e#19899#19900#0" expanded="true" />
+                <element signature="e#21842#21885#0" expanded="true" />
+                <element signature="e#22359#22401#0" expanded="true" />
+                <element signature="e#22659#22697#0" expanded="true" />
+                <element signature="e#22725#22763#0" expanded="true" />
+                <element signature="e#22798#22840#0" expanded="true" />
+                <element signature="e#25182#25214#0" expanded="true" />
+                <element signature="e#28334#28549#0" expanded="true" />
+                <element signature="e#28548#28549#0" expanded="true" />
+                <element signature="e#28560#28671#0" expanded="true" />
+                <element signature="e#28670#28671#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,7 +114,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iot.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="iot.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/iot.xml">
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
@@ -1561,8 +1564,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/ibm/iot/android/iotstarter/utils/MessageConductor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ibm/iot/android/iotstarter/utils/TalkAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ibm/iot/android/iotstarter/fragments/IoTPagerFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/iot.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ibm/iot/android/iotstarter/fragments/IoTPagerFragment.java" />
       </list>
     </option>
   </component>
@@ -1573,7 +1576,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -2219,7 +2222,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2233,7 +2236,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32772276" sideWeight="0.4746494" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296371" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2980198" sideWeight="0.4684829" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33820224" sideWeight="0.4684829" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1693376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -2616,8 +2619,8 @@
         <state vertical-scroll-proportion="10.69697">
           <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
           <folding>
-            <element signature="e#3329#3619#0" expanded="true" />
-            <element signature="e#3618#3619#0" expanded="true" />
+            <element signature="e#3329#3619#0" expanded="false" />
+            <element signature="e#3618#3619#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2698,10 +2701,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/iot.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="144" column="39" selection-start-line="144" selection-start-column="39" selection-end-line="144" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ibm/iot/android/iotstarter/fragments/IoTPagerFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.69697">
-          <caret line="484" column="40" selection-start-line="484" selection-start-column="40" selection-end-line="484" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.4274809">
+          <caret line="460" column="0" selection-start-line="460" selection-start-column="0" selection-end-line="460" selection-end-column="0" />
           <folding>
             <element signature="e#4492#4782#0" expanded="true" />
             <element signature="e#4781#4782#0" expanded="true" />
@@ -2714,29 +2728,21 @@
             <element signature="e#12229#12266#0" expanded="true" />
             <element signature="e#13853#13906#0" expanded="true" />
             <element signature="e#13988#14025#0" expanded="true" />
-            <element signature="e#21104#21147#0" expanded="true" />
-            <element signature="e#21621#21663#0" expanded="true" />
-            <element signature="e#21921#21959#0" expanded="true" />
-            <element signature="e#21987#22025#0" expanded="true" />
-            <element signature="e#22060#22102#0" expanded="true" />
-            <element signature="e#24444#24476#0" expanded="true" />
-            <element signature="e#27596#27811#0" expanded="true" />
-            <element signature="e#27810#27811#0" expanded="true" />
-            <element signature="e#27822#27933#0" expanded="true" />
-            <element signature="e#27932#27933#0" expanded="true" />
+            <element signature="e#15217#15459#0" expanded="true" />
+            <element signature="e#15458#15459#0" expanded="true" />
+            <element signature="e#19899#19900#0" expanded="true" />
+            <element signature="e#21842#21885#0" expanded="true" />
+            <element signature="e#22359#22401#0" expanded="true" />
+            <element signature="e#22659#22697#0" expanded="true" />
+            <element signature="e#22725#22763#0" expanded="true" />
+            <element signature="e#22798#22840#0" expanded="true" />
+            <element signature="e#25182#25214#0" expanded="true" />
+            <element signature="e#28334#28549#0" expanded="true" />
+            <element signature="e#28548#28549#0" expanded="true" />
+            <element signature="e#28560#28671#0" expanded="true" />
+            <element signature="e#28670#28671#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/iot.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="144" column="39" selection-start-line="144" selection-start-column="39" selection-end-line="144" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
   </component>

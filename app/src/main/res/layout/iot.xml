@@ -137,7 +137,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/sendText"
                 android:text="@string/audio"
-            android:background="#8063ff" />
+            android:background="#5b75ff" />
 
         <TextView
             android:layout_width="match_parent"
